@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>1350</width>
+  <height>720</height>
+  <actions>
+  </actions>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <class>TITLE-BAR</class>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>1350</width>
+    <height use_class="true">50</height>
+    <line_width use_class="true">0</line_width>
+    <background_color use_class="true">
+      <color name="PRIMARY-HEADER-BACKGROUND" red="151" green="188" blue="202">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <class>TITLE</class>
+    <text>Diagnostic Thread</text>
+    <x use_class="true">20</x>
+    <y use_class="true">0</y>
+    <width>430</width>
+    <height use_class="true">50</height>
+    <font use_class="true">
+      <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="HEADER-TEXT" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment use_class="true">0</horizontal_alignment>
+    <vertical_alignment use_class="true">1</vertical_alignment>
+    <wrap_words use_class="true">false</wrap_words>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03_3</name>
+    <x>20</x>
+    <y>70</y>
+    <width>1310</width>
+    <height>630</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background_3</name>
+      <width>1310</width>
+      <height>630</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_1</name>
+      <x>10</x>
+      <y>10</y>
+      <width>640</width>
+      <height>610</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_5</name>
+      <class>HEADER2</class>
+      <text>Latency &amp; Execute</text>
+      <x>10</x>
+      <y>10</y>
+      <width>640</width>
+      <height>40</height>
+      <font use_class="true">
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_2</name>
+      <text>Latency [ns]:</text>
+      <x>150</x>
+      <y>90</y>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_3</name>
+      <text>Max</text>
+      <x>260</x>
+      <y>60</y>
+      <width>120</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_4</name>
+      <text>Min</text>
+      <x>390</x>
+      <y>60</y>
+      <width>120</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_6</name>
+      <text>Execute [ns]:</text>
+      <x>150</x>
+      <y>116</y>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="xyplot" version="2.0.0">
+      <name>XY Graph_1</name>
+      <x>30</x>
+      <y>160</y>
+      <width>580</width>
+      <height>400</height>
+      <title_font>
+        <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </title_font>
+      <show_legend>false</show_legend>
+      <actions>
+      </actions>
+      <x_axis>
+        <title>Primary X Axis (0)</title>
+        <autoscale>true</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>1000.0</maximum>
+        <show_grid>true</show_grid>
+        <title_font>
+          <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
+          </font>
+        </scale_font>
+        <visible>true</visible>
+      </x_axis>
+      <y_axes>
+        <y_axis>
+          <title>Latency [ns]</title>
+          <autoscale>false</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100000.0</maximum>
+          <show_grid>true</show_grid>
+          <title_font>
+            <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
+            </font>
+          </scale_font>
+          <visible>true</visible>
+        </y_axis>
+        <y_axis>
+          <title>Execute [ns]</title>
+          <autoscale>false</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>500000.0</maximum>
+          <show_grid>true</show_grid>
+          <title_font>
+            <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
+            </font>
+          </scale_font>
+          <visible>true</visible>
+        </y_axis>
+      </y_axes>
+      <traces>
+        <trace>
+          <name>$(traces[0].y_pv)</name>
+          <x_pv></x_pv>
+          <y_pv>$(P)MCU-thread-latency-max</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="BLUE-BORDER" red="47" green="135" blue="148">
+            </color>
+          </color>
+          <line_width>2</line_width>
+          <point_type>0</point_type>
+          <point_size>4</point_size>
+        </trace>
+        <trace>
+          <name>$(traces[1].y_pv)</name>
+          <x_pv></x_pv>
+          <y_pv>$(P)MCU-thread-execute-max</y_pv>
+          <err_pv></err_pv>
+          <axis>1</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="GREEN-BORDER" red="40" green="140" blue="40">
+            </color>
+          </color>
+          <line_width>2</line_width>
+          <point_type>0</point_type>
+          <point_size>4</point_size>
+        </trace>
+      </traces>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <pv_name>$(P)MCU-thread-latency-max</pv_name>
+      <x>260</x>
+      <y>90</y>
+      <width>120</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_1</name>
+      <pv_name>$(P)MCU-thread-execute-max</pv_name>
+      <x>260</x>
+      <y>116</y>
+      <width>120</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_2</name>
+      <pv_name>$(P)MCU-thread-latency-min</pv_name>
+      <x>390</x>
+      <y>90</y>
+      <width>120</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_3</name>
+      <pv_name>$(P)MCU-thread-execute-min</pv_name>
+      <x>390</x>
+      <y>116</y>
+      <width>120</width>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_2</name>
+      <x>660</x>
+      <y>10</y>
+      <width>640</width>
+      <height>610</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="xyplot" version="2.0.0">
+      <name>XY Graph_2</name>
+      <x>680</x>
+      <y>161</y>
+      <width>580</width>
+      <height>400</height>
+      <title_font>
+        <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </title_font>
+      <show_legend>false</show_legend>
+      <actions>
+      </actions>
+      <x_axis>
+        <title>Primary X Axis (0)</title>
+        <autoscale>true</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>1000.0</maximum>
+        <show_grid>true</show_grid>
+        <title_font>
+          <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
+          </font>
+        </scale_font>
+        <visible>true</visible>
+      </x_axis>
+      <y_axes>
+        <y_axis>
+          <title>Period [ns]</title>
+          <autoscale>false</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>900000.0</minimum>
+          <maximum>1100000.0</maximum>
+          <show_grid>true</show_grid>
+          <title_font>
+            <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
+            </font>
+          </scale_font>
+          <visible>true</visible>
+        </y_axis>
+      </y_axes>
+      <traces>
+        <trace>
+          <name>$(traces[0].y_pv)</name>
+          <x_pv></x_pv>
+          <y_pv>$(P)MCU-thread-period-max</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="ORANGE-BORDER" red="153" green="117" blue="49">
+            </color>
+          </color>
+          <line_width>2</line_width>
+          <point_type>0</point_type>
+          <point_size>4</point_size>
+        </trace>
+        <trace>
+          <name>$(traces[1].y_pv)</name>
+          <x_pv></x_pv>
+          <y_pv>$(P)MCU-thread-period-min</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="MAGENTA-BORDER" red="135" green="29" blue="100">
+            </color>
+          </color>
+          <line_width>2</line_width>
+          <point_type>0</point_type>
+          <point_size>4</point_size>
+        </trace>
+      </traces>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_9</name>
+      <text>Max</text>
+      <x>912</x>
+      <y>60</y>
+      <width>120</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_10</name>
+      <text>Min</text>
+      <x>1042</x>
+      <y>60</y>
+      <width>120</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_4</name>
+      <pv_name>$(P)MCU-thread-period-max</pv_name>
+      <x>912</x>
+      <y>90</y>
+      <width>120</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>$(P)MCU-thread-send-max</pv_name>
+      <x>912</x>
+      <y>116</y>
+      <width>120</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>$(P)MCU-thread-period-min</pv_name>
+      <x>1042</x>
+      <y>90</y>
+      <width>120</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_7</name>
+      <pv_name>$(P)MCU-thread-send-min</pv_name>
+      <x>1042</x>
+      <y>116</y>
+      <width>120</width>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_11</name>
+      <text>Period [ns]:</text>
+      <x>800</x>
+      <y>90</y>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_12</name>
+      <text>Send [ns]:</text>
+      <x>800</x>
+      <y>116</y>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_6</name>
+      <class>HEADER2</class>
+      <text>Period Min &amp; Period Max</text>
+      <x>690</x>
+      <y>10</y>
+      <width>610</width>
+      <height>40</height>
+      <font use_class="true">
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline</name>
+      <x>192</x>
+      <y>591</y>
+      <width>50</width>
+      <height>1</height>
+      <line_width>4</line_width>
+      <line_color>
+        <color name="BLUE-BORDER" red="47" green="135" blue="148">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="50.0" y="0.0">
+        </point>
+      </points>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_15</name>
+      <text>Latency Max</text>
+      <x>253</x>
+      <y>580</y>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_1</name>
+      <x>382</x>
+      <y>591</y>
+      <width>50</width>
+      <height>1</height>
+      <line_width>4</line_width>
+      <line_color>
+        <color name="GREEN-BORDER" red="40" green="140" blue="40">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="50.0" y="0.0">
+        </point>
+      </points>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_16</name>
+      <text>Execute Max</text>
+      <x>443</x>
+      <y>580</y>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_2</name>
+      <x>830</x>
+      <y>591</y>
+      <width>50</width>
+      <height>1</height>
+      <line_width>4</line_width>
+      <line_color>
+        <color name="ORANGE-BORDER" red="153" green="117" blue="49">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="50.0" y="0.0">
+        </point>
+      </points>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_17</name>
+      <text>Period Max</text>
+      <x>891</x>
+      <y>580</y>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_3</name>
+      <x>1020</x>
+      <y>591</y>
+      <width>50</width>
+      <height>1</height>
+      <line_width>4</line_width>
+      <line_color>
+        <color name="MAGENTA-BORDER" red="135" green="29" blue="100">
+        </color>
+      </line_color>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="50.0" y="0.0">
+        </point>
+      </points>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <text>Period Min</text>
+      <x>1081</x>
+      <y>580</y>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+</display>

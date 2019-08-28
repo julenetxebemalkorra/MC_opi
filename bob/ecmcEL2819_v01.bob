@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcEL2819</name>
+  <width>500</width>
+  <height>420</height>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03</name>
+    <width>500</width>
+    <height>420</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background</name>
+      <width>500</width>
+      <height>420</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_1</name>
+      <text>$(TYPE)</text>
+      <width>500</width>
+      <height>40</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="GROUP-TEXT" red="25" green="25" blue="25">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO1-RB</pv_name>
+      <x>190</x>
+      <y>100</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO2-RB</pv_name>
+      <x>190</x>
+      <y>130</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO3-RB</pv_name>
+      <x>190</x>
+      <y>160</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO4-RB</pv_name>
+      <x>190</x>
+      <y>190</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO5-RB</pv_name>
+      <x>190</x>
+      <y>220</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO6-RB</pv_name>
+      <x>190</x>
+      <y>250</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO7-RB</pv_name>
+      <x>190</x>
+      <y>280</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO8-RB</pv_name>
+      <x>190</x>
+      <y>310</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_8</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO9</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>100</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_9</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO10</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>130</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_10</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO11</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>160</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_11</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO12</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>190</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_12</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO13</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>220</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_13</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO14</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>250</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_14</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO15</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>280</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_15</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO16</pv_name>
+      <text>Write</text>
+      <x>360</x>
+      <y>310</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_9</name>
+      <text>Output 9:</text>
+      <x>270</x>
+      <y>100</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_10</name>
+      <text>Output 10:</text>
+      <x>270</x>
+      <y>130</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_11</name>
+      <text>Output 11:</text>
+      <x>270</x>
+      <y>160</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_12</name>
+      <text>Output 12:</text>
+      <x>270</x>
+      <y>190</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_13</name>
+      <text>Output 13:</text>
+      <x>270</x>
+      <y>220</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_14</name>
+      <text>Output 14:</text>
+      <x>270</x>
+      <y>250</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_15</name>
+      <text>Output 15:</text>
+      <x>270</x>
+      <y>280</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_16</name>
+      <text>Output 16:</text>
+      <x>270</x>
+      <y>310</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_8</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO9-RB</pv_name>
+      <x>450</x>
+      <y>100</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_9</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO10-RB</pv_name>
+      <x>450</x>
+      <y>130</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_10</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO11-RB</pv_name>
+      <x>450</x>
+      <y>160</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_11</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO12-RB</pv_name>
+      <x>450</x>
+      <y>190</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_12</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO13-RB</pv_name>
+      <x>450</x>
+      <y>220</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_13</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO14-RB</pv_name>
+      <x>450</x>
+      <y>250</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_14</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO15-RB</pv_name>
+      <x>450</x>
+      <y>280</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_15</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO16-RB</pv_name>
+      <x>450</x>
+      <y>310</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update</name>
+      <text>$(SLAVE_POS)</text>
+      <x>270</x>
+      <y>50</y>
+      <width>80</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <text>Slave Position:</text>
+      <x>160</x>
+      <y>50</y>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Image Boolean Button_5</name>
+      <bit>-1</bit>
+      <x>20</x>
+      <y>360</y>
+      <width>450</width>
+      <height>40</height>
+      <off_label>Diagnostics</off_label>
+      <on_label></on_label>
+      <show_led>false</show_led>
+      <actions>
+        <action type="open_display">
+          <file>ecmcDiagEcSlave.opi</file>
+          <target>tab</target>
+        </action>
+      </actions>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 1:</text>
+      <x>10</x>
+      <y>100</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 2:</text>
+      <x>10</x>
+      <y>130</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 3:</text>
+      <x>10</x>
+      <y>160</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 4:</text>
+      <x>10</x>
+      <y>190</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 5:</text>
+      <x>10</x>
+      <y>220</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 6:</text>
+      <x>10</x>
+      <y>250</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 7:</text>
+      <x>10</x>
+      <y>280</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Output 8:</text>
+      <x>10</x>
+      <y>310</y>
+      <width>80</width>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO1</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>100</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO2</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>130</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO3</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>160</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO4</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>190</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO5</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>220</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO6</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>250</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO7</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>280</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO8</pv_name>
+      <text>Write</text>
+      <x>100</x>
+      <y>310</y>
+      <width>80</width>
+      <height>20</height>
+    </widget>
+  </widget>
+</display>

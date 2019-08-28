@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcEK1100</name>
+  <width>290</width>
+  <height>190</height>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03</name>
+    <x>20</x>
+    <y>20</y>
+    <width>250</width>
+    <height>150</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background</name>
+      <width>250</width>
+      <height>150</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_1</name>
+      <text>$(TYPE)</text>
+      <width>250</width>
+      <height>40</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="GROUP-TEXT" red="25" green="25" blue="25">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <text>Slave Position:</text>
+      <x>20</x>
+      <y>50</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update</name>
+      <text>$(SLAVE_POS)</text>
+      <x>130</x>
+      <y>50</y>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Image Boolean Button_5</name>
+      <bit>-1</bit>
+      <x>20</x>
+      <y>90</y>
+      <width>210</width>
+      <height>40</height>
+      <off_label>Diagnostics</off_label>
+      <on_label></on_label>
+      <on_image>ON</on_image>
+      <show_led>false</show_led>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <actions>
+        <action type="open_display">
+          <file>ecmcDiagEcSlave.opi</file>
+          <target>tab</target>
+        </action>
+      </actions>
+    </widget>
+  </widget>
+</display>

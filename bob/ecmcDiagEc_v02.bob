@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcDiagEc_v02</name>
+  <width>300</width>
+  <height>710</height>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03</name>
+    <x>20</x>
+    <y>170</y>
+    <width>260</width>
+    <height>250</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background</name>
+      <width>260</width>
+      <height>250</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_1</name>
+      <text>Slaves States</text>
+      <width>250</width>
+      <height>40</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="GROUP-TEXT" red="25" green="25" blue="25">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor_2</name>
+      <pv_name>$(P)ec$(MASTER_ID)-alstates</pv_name>
+      <x>80</x>
+      <y>50</y>
+      <width>97</width>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>   Initial</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor_3</name>
+      <pv_name>$(P)ec$(MASTER_ID)-alstates</pv_name>
+      <x>80</x>
+      <y>80</y>
+      <width>140</width>
+      <startBit>1</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>   Pre Operational</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor_4</name>
+      <pv_name>$(P)ec$(MASTER_ID)-alstates</pv_name>
+      <x>80</x>
+      <y>130</y>
+      <width>170</width>
+      <startBit>2</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>   Safe Operational</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor_5</name>
+      <pv_name>$(P)ec$(MASTER_ID)-alstates</pv_name>
+      <x>80</x>
+      <y>160</y>
+      <width>130</width>
+      <startBit>3</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>   Operational</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_4</name>
+      <text>Responding:</text>
+      <x>10</x>
+      <y>210</y>
+      <width>90</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <class>TITLE-BAR</class>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>300</width>
+    <height use_class="true">50</height>
+    <line_width use_class="true">0</line_width>
+    <background_color use_class="true">
+      <color name="PRIMARY-HEADER-BACKGROUND" red="151" green="188" blue="202">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>MGGrey03-title</name>
+    <class>TITLE</class>
+    <text>EtherCAT Master</text>
+    <x use_class="true">20</x>
+    <y use_class="true">0</y>
+    <width>280</width>
+    <height use_class="true">50</height>
+    <font use_class="true">
+      <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="HEADER-TEXT" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="RED-BORDER" red="150" green="8" blue="16">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment use_class="true">0</horizontal_alignment>
+    <vertical_alignment use_class="true">1</vertical_alignment>
+    <wrap_words use_class="true">false</wrap_words>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>1980</x>
+    <y>90</y>
+    <width>500</width>
+    <height>255</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03_1</name>
+    <x>20</x>
+    <y>440</y>
+    <width>260</width>
+    <height>250</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background_1</name>
+      <width>260</width>
+      <height>250</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_2</name>
+      <class>HEADER2</class>
+      <text>Domain</text>
+      <width>260</width>
+      <height>40</height>
+      <font use_class="true">
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_1</name>
+      <pv_name>$(P)ec$(MASTER_ID)-domainstatus</pv_name>
+      <x>80</x>
+      <y>50</y>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="192" green="192" blue="192">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_5</name>
+      <text>Status</text>
+      <x>110</x>
+      <y>50</y>
+      <width>90</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_6</name>
+      <text>Fails:</text>
+      <x>20</x>
+      <y>100</y>
+      <width>80</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_8</name>
+      <text>Total Fails</text>
+      <x>20</x>
+      <y>130</y>
+      <width>80</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_9</name>
+      <text>Mem map:</text>
+      <x>20</x>
+      <y>170</y>
+      <width>80</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_10</name>
+      <text>Entry:</text>
+      <x>20</x>
+      <y>200</y>
+      <width>80</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03_2</name>
+    <x>20</x>
+    <y>70</y>
+    <width>260</width>
+    <height>80</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background_2</name>
+      <width>260</width>
+      <height>80</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_3</name>
+      <class>HEADER2</class>
+      <text>Master</text>
+      <width>260</width>
+      <height>40</height>
+      <font use_class="true">
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(P)ec$(MASTER_ID)-link</pv_name>
+      <x>80</x>
+      <y>45</y>
+      <off_color>
+        <color name="INVALID" red="149" green="110" blue="221">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_1</name>
+      <text>Link up</text>
+      <x>110</x>
+      <y>45</y>
+      <width>80</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(P)ec$(MASTER_ID)-slavecounter</pv_name>
+    <x>130</x>
+    <y>380</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(P)ec$(MASTER_ID)-domainfailcounter</pv_name>
+    <x>130</x>
+    <y>540</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>$(P)ec$(MASTER_ID)-domainfailcountertotal</pv_name>
+    <x>130</x>
+    <y>570</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>$(P)ec$(MASTER_ID)-memmapcounter</pv_name>
+    <x>130</x>
+    <y>610</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>$(P)ec$(MASTER_ID)-entrycounter</pv_name>
+    <x>130</x>
+    <y>640</y>
+    <width>80</width>
+  </widget>
+</display>

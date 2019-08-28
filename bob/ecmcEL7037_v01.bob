@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcEL7037</name>
+  <width>810</width>
+  <height>690</height>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>MGGrey03_1</name>
+    <width>810</width>
+    <height>690</height>
+    <style>3</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background_2</name>
+      <width>810</width>
+      <height>690</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_3</name>
+      <x>500</x>
+      <y>110</y>
+      <width>290</width>
+      <height>500</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>MGGrey03-title_3</name>
+      <text>$(TYPE)</text>
+      <width>810</width>
+      <height>40</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="GROUP-TEXT" red="25" green="25" blue="25">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_17</name>
+      <text>Slave Position:</text>
+      <x>300</x>
+      <y>60</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_8</name>
+      <text>$(SLAVE_POS)</text>
+      <x>410</x>
+      <y>60</y>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_2</name>
+      <x>20</x>
+      <y>110</y>
+      <width>460</width>
+      <height>500</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <class>HEADER3</class>
+      <text>Stepper</text>
+      <x>20</x>
+      <y>110</y>
+      <width>460</width>
+      <height>30</height>
+      <font use_class="true">
+        <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_19</name>
+      <text>Control word:</text>
+      <x>30</x>
+      <y>510</y>
+      <width>120</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_4</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Cmd-RB</pv_name>
+      <x>310</x>
+      <y>510</y>
+      <width>140</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_5</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Cmd</pv_name>
+      <x>160</x>
+      <y>510</y>
+      <width>140</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_20</name>
+      <text>Status word:</text>
+      <x>30</x>
+      <y>538</y>
+      <width>120</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_6</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Stat</pv_name>
+      <x>310</x>
+      <y>538</y>
+      <width>140</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_21</name>
+      <text>Velocity Setpoint:</text>
+      <x>30</x>
+      <y>566</y>
+      <width>120</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Image Boolean Button_5</name>
+      <bit>-1</bit>
+      <x>20</x>
+      <y>630</y>
+      <width>770</width>
+      <height>40</height>
+      <off_label>Diagnostics</off_label>
+      <on_label>Diagnostics</on_label>
+      <show_led>false</show_led>
+      <actions>
+        <action type="open_display">
+          <file>ecmcDiagEcSlave.opi</file>
+          <target>tab</target>
+        </action>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Enc-Stat</pv_name>
+      <x>550</x>
+      <y>160</y>
+      <width>180</width>
+      <height>320</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="46" green="52" blue="54">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>0: Latch C valid</text>
+        <text>1: Latch extern valid</text>
+        <text>2: Set counter done</text>
+        <text>3: Counter underflow</text>
+        <text>4: Counter overflow</text>
+        <text>5:</text>
+        <text>6:</text>
+        <text>7: Extrapolation stall</text>
+        <text>8: Status input A</text>
+        <text>9: Status input B</text>
+        <text>A: Status input C</text>
+        <text>B:</text>
+        <text>C: Status input latch</text>
+        <text>D: Sync error</text>
+        <text>E:</text>
+        <text>F:</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_13</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Enc-Stat</pv_name>
+      <x>630</x>
+      <y>510</y>
+      <width>140</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_16</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Enc-PosAct</pv_name>
+      <x>630</x>
+      <y>540</y>
+      <width>140</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_17</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Enc-Latch-PosAct</pv_name>
+      <x>630</x>
+      <y>570</y>
+      <width>140</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_28</name>
+      <text>Position:</text>
+      <x>520</x>
+      <y>540</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_29</name>
+      <text>Latch Position:</text>
+      <x>520</x>
+      <y>570</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_26</name>
+      <text>Status word:</text>
+      <x>520</x>
+      <y>510</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_24</name>
+      <class>HEADER3</class>
+      <text>Encoder</text>
+      <x>500</x>
+      <y>110</y>
+      <width>290</width>
+      <height>30</height>
+      <font use_class="true">
+        <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_23</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Spd</pv_name>
+      <x>160</x>
+      <y>566</y>
+      <width>140</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text_24</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Spd-RB</pv_name>
+      <x>310</x>
+      <y>566</y>
+      <width>140</width>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Cmd-RB</pv_name>
+      <x>60</x>
+      <y>160</y>
+      <width>138</width>
+      <height>320</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="46" green="52" blue="54">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>0: Enable</text>
+        <text>1: Reset</text>
+        <text>2: Reduce torque</text>
+        <text>3:</text>
+        <text>4:</text>
+        <text>5:</text>
+        <text>6:</text>
+        <text>7:</text>
+        <text>8:</text>
+        <text>9:</text>
+        <text>A:</text>
+        <text>B:</text>
+        <text>C: Output 1</text>
+        <text>D:</text>
+        <text>E:</text>
+        <text>F:</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>Byte Monitor</name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-Drv-Stat</pv_name>
+      <x>280</x>
+      <y>160</y>
+      <width>157</width>
+      <height>320</height>
+      <numBits>16</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <off_color>
+        <color red="0" green="100" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="0" green="255" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color red="46" green="52" blue="54">
+        </color>
+      </foreground_color>
+      <labels>
+        <text>0: Ready to enable</text>
+        <text>1: Ready</text>
+        <text>2: Warning</text>
+        <text>3: Error</text>
+        <text>4: Moving positive</text>
+        <text>5: Moving Negative</text>
+        <text>6: Torque reduced</text>
+        <text>7: Motor stall</text>
+        <text>8:</text>
+        <text>9:</text>
+        <text>A:</text>
+        <text>B: Digital input 1</text>
+        <text>C: Digital input 2</text>
+        <text>D: Sync error</text>
+        <text>E: TxPDO toggle</text>
+        <text>F:</text>
+      </labels>
+      <actions>
+      </actions>
+    </widget>
+  </widget>
+</display>

@@ -5,6 +5,7 @@
   <height>560</height>
   <actions>
   </actions>
+  <grid_visible>false</grid_visible>
   <widget type="group" version="2.0.0">
     <name>Encoder</name>
     <x>2480</x>
@@ -559,8 +560,8 @@
         <text>User Pos (VAL)</text>
         <x>84</x>
         <y>42</y>
-        <width>73</width>
-        <height>13</height>
+        <width>69</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -620,8 +621,8 @@
         <text>Readback (RBV)</text>
         <x>77</x>
         <y>76</y>
-        <width>81</width>
-        <height>13</height>
+        <width>75</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1193,8 +1194,8 @@
         <text>Dial Readback (DRBV)</text>
         <x>316</x>
         <y>76</y>
-        <width>111</width>
-        <height>13</height>
+        <width>102</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1255,8 +1256,8 @@
         <text>Dial Pos (DVAL)</text>
         <x>329</x>
         <y>42</y>
-        <width>78</width>
-        <height>13</height>
+        <width>73</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1352,8 +1353,8 @@
 </text>
         <x>331</x>
         <y>8</y>
-        <width>68</width>
-        <height>25</height>
+        <width>69</width>
+        <height>24</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1454,8 +1455,8 @@
         <text>Raw Pos RVAL (INT32)</text>
         <x>321</x>
         <y>120</y>
-        <width>111</width>
-        <height>13</height>
+        <width>105</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1516,8 +1517,8 @@
         <text>REP (INT32)</text>
         <x>312</x>
         <y>316</y>
-        <width>59</width>
-        <height>13</height>
+        <width>57</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1607,8 +1608,8 @@
         <text>RMP (INT32)</text>
         <x>344</x>
         <y>168</y>
-        <width>62</width>
-        <height>13</height>
+        <width>59</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2224,8 +2225,8 @@
         <text>AccAct</text>
         <x>2</x>
         <y>154</y>
-        <width>34</width>
-        <height>13</height>
+        <width>31</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2253,8 +2254,8 @@
         <text>VelAct</text>
         <x>102</x>
         <y>154</y>
-        <width>32</width>
-        <height>13</height>
+        <width>29</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2282,8 +2283,8 @@
         <text>DecAct</text>
         <x>194</x>
         <y>154</y>
-        <width>36</width>
-        <height>13</height>
+        <width>32</width>
+        <height>12</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2875,7 +2876,6 @@
       <x>40</x>
       <y>310</y>
       <width>90</width>
-      <height>21</height>
       <background_color>
         <color name="IO Background" red="255" green="255" blue="205">
         </color>
@@ -3392,7 +3392,7 @@
       <x>900</x>
       <y>50</y>
       <width>190</width>
-      <height>300</height>
+      <height>191</height>
       <line_width>0</line_width>
       <line_color>
         <color name="GROUP-BORDER" red="150" green="155" blue="151">
@@ -4229,14 +4229,14 @@
       <name>Text Update_15</name>
       <pv_name>$(P)$(M).RMP</pv_name>
       <x>1190</x>
-      <y>443</y>
+      <y>455</y>
       <width>110</width>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_18</name>
       <pv_name>$(P)$(M).REP</pv_name>
       <x>1190</x>
-      <y>478</y>
+      <y>499</y>
       <width>110</width>
       <format>1</format>
       <vertical_alignment>1</vertical_alignment>
@@ -4254,7 +4254,7 @@
       <name>Label Template_38</name>
       <text>Encoder Position:</text>
       <x>1060</x>
-      <y>478</y>
+      <y>499</y>
       <width>120</width>
       <background_color>
         <color name="IO Background" red="255" green="255" blue="205">
@@ -4281,7 +4281,7 @@
       <name>Label_45</name>
       <text>Motor Position:</text>
       <x>1060</x>
-      <y>443</y>
+      <y>455</y>
       <width>120</width>
       <horizontal_alignment>2</horizontal_alignment>
     </widget>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcMCUGeneral</name>
+  <width>479</width>
+  <height>149</height>
+  <actions>
+  </actions>
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <width>479</width>
+    <height>149</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>MGGrey03-background_2</name>
+      <width>479</width>
+      <height>149</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <corner_width>10</corner_width>
+      <corner_height>10</corner_height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <class>HEADER2</class>
+      <text>General</text>
+      <width>479</width>
+      <height>45</height>
+      <font use_class="true">
+        <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+        </font>
+      </font>
+      <background_color use_class="true">
+        <color name="Background" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <transparent use_class="true">true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <pv_name>$(P)MCU-ErrMsg</pv_name>
+      <x>19</x>
+      <y>50</y>
+      <width>439</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>$(P)MCU-ErrId</pv_name>
+      <x>19</x>
+      <y>100</y>
+      <width>80</width>
+      <foreground_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <format>4</format>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_4</name>
+      <pv_name>$(P)MCU-ErrId</pv_name>
+      <bit>0</bit>
+      <x>109</x>
+      <y>100</y>
+      <off_color>
+        <color name="LED-RED-OFF" red="110" green="101" blue="90">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-RED-ON" red="255" green="60" blue="46">
+        </color>
+      </on_color>
+      <line_color>
+        <color red="50" green="50" blue="50">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="bool_button" version="2.0.0">
+      <name>Image Boolean Button_3</name>
+      <pv_name>$(P)MCU-ErrRst</pv_name>
+      <bit>-1</bit>
+      <x>259</x>
+      <y>90</y>
+      <width>199</width>
+      <height>40</height>
+      <off_label>Reset</off_label>
+      <off_image>OffButton.png</off_image>
+      <on_label>Reset</on_label>
+      <on_image>OnButton.png</on_image>
+      <show_led>false</show_led>
+      <actions>
+      </actions>
+    </widget>
+  </widget>
+</display>

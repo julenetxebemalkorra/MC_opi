@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <macros>
+    <P>PRL-TCB:</P>
+  </macros>
+  <background_color>
+    <color red="240" green="240" blue="240">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="tabs" version="2.0.0">
+    <name>Tabbed Container</name>
+    <tabs>
+      <tab>
+        <name>General</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container_1</name>
+            <file>ecmcHardwarePRL_TCB_001_v01.bob</file>
+            <macros>
+              <P>PRL-TCB:</P>
+            </macros>
+            <x>8</x>
+            <y>229</y>
+            <width>516</width>
+            <height>570</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+          <widget type="group" version="2.0.0">
+            <name>Diagnostics</name>
+            <x>538</x>
+            <y>221</y>
+            <width>241</width>
+            <height>487</height>
+            <font>
+              <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+              </font>
+            </font>
+            <foreground_color>
+              <color red="0" green="0" blue="0">
+              </color>
+            </foreground_color>
+            <background_color>
+              <color red="255" green="255" blue="255">
+              </color>
+            </background_color>
+            <actions>
+            </actions>
+            <widget type="bool_button" version="2.0.0">
+              <name>Image Boolean Button_5</name>
+              <bit>-1</bit>
+              <x>12</x>
+              <y>18</y>
+              <width>180</width>
+              <height>49</height>
+              <off_label></off_label>
+              <off_image>OffButton.png</off_image>
+              <on_label></on_label>
+              <on_image>OffButton.png</on_image>
+              <foreground_color>
+                <color red="0" green="0" blue="0">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+                <action type="open_display">
+                  <file>ecmcDiagEc.opi</file>
+                  <macros>
+                    <MASTER_ID>0</MASTER_ID>
+                  </macros>
+                  <target>tab</target>
+                </action>
+              </actions>
+            </widget>
+            <widget type="label" version="2.0.0">
+              <name>Label_4</name>
+              <text>EtherCAT master</text>
+              <x>30</x>
+              <y>33</y>
+              <width>133</width>
+              <foreground_color>
+                <color red="0" green="0" blue="0">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="255" green="255" blue="255">
+                </color>
+              </background_color>
+              <horizontal_alignment>1</horizontal_alignment>
+              <vertical_alignment>1</vertical_alignment>
+              <wrap_words>false</wrap_words>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+            <widget type="bool_button" version="2.0.0">
+              <name>Image Boolean Button_5</name>
+              <bit>-1</bit>
+              <x>12</x>
+              <y>72</y>
+              <width>180</width>
+              <height>49</height>
+              <off_label></off_label>
+              <off_image>OffButton.png</off_image>
+              <on_label></on_label>
+              <on_image>OffButton.png</on_image>
+              <foreground_color>
+                <color red="0" green="0" blue="0">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="240" green="240" blue="240">
+                </color>
+              </background_color>
+              <actions>
+                <action type="open_display">
+                  <file>ecmcDiagThread.opi</file>
+                  <target>tab</target>
+                </action>
+              </actions>
+            </widget>
+            <widget type="label" version="2.0.0">
+              <name>Label_4</name>
+              <text>Realtime</text>
+              <x>30</x>
+              <y>87</y>
+              <width>133</width>
+              <foreground_color>
+                <color red="0" green="0" blue="0">
+                </color>
+              </foreground_color>
+              <background_color>
+                <color red="255" green="255" blue="255">
+                </color>
+              </background_color>
+              <horizontal_alignment>1</horizontal_alignment>
+              <vertical_alignment>1</vertical_alignment>
+              <wrap_words>false</wrap_words>
+              <actions>
+              </actions>
+              <border_color>
+                <color red="0" green="128" blue="255">
+                </color>
+              </border_color>
+            </widget>
+          </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>../bob/ecmcMCUGeneral_v01.bob</file>
+            <macros>
+              <P>PRL-TCB:001-</P>
+            </macros>
+            <y>9</y>
+            <width>550</width>
+            <height>210</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>PID loop</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>ecmcEL32X2</name>
+            <file>ecmcEL32X2_v01.bob</file>
+            <x>28</x>
+            <y>29</y>
+            <width>600</width>
+            <height>660</height>
+          </widget>
+        </children>
+      </tab>
+    </tabs>
+    <x>40</x>
+    <y>10</y>
+    <width>1090</width>
+    <height>882</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <tab_height>10</tab_height>
+    <actions>
+    </actions>
+  </widget>
+</display>

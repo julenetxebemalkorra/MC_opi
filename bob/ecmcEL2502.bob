@@ -8,7 +8,7 @@
   <widget type="group" version="2.0.0">
     <name>MGGrey03</name>
     <width>600</width>
-    <height>660</height>
+    <height>340</height>
     <style>3</style>
     <background_color>
       <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -18,7 +18,7 @@
     <widget type="rectangle" version="2.0.0">
       <name>MGGrey03-background</name>
       <width>600</width>
-      <height>660</height>
+      <height>340</height>
       <line_width>2</line_width>
       <line_color>
         <color name="GROUP-BORDER" red="150" green="155" blue="151">
@@ -97,7 +97,7 @@ $(pv_value)</tooltip>
       <x>20</x>
       <y>110</y>
       <width>270</width>
-      <height>470</height>
+      <height>130</height>
       <line_width>0</line_width>
       <line_color>
         <color name="GROUP-BORDER" red="150" green="155" blue="151">
@@ -170,63 +170,24 @@ $(pv_value)</tooltip>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_2</name>
-      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI1-Stat</pv_name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO1-Stat</pv_name>
       <x>150</x>
       <y>180</y>
       <width>115</width>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_3</name>
-      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI1</pv_name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO1-RB</pv_name>
       <x>150</x>
       <y>150</y>
       <width>115</width>
-    </widget>
-    <widget type="byte_monitor" version="2.0.0">
-      <name>Byte Monitor</name>
-      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI1-Stat</pv_name>
-      <x>90</x>
-      <y>220</y>
-      <width>138</width>
-      <height>340</height>
-      <numBits>16</numBits>
-      <bitReverse>true</bitReverse>
-      <horizontal>false</horizontal>
-      <off_color>
-        <color red="0" green="100" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <labels>
-        <text>0: Underrange</text>
-        <text>1: Overrange</text>
-        <text>2:</text>
-        <text>3:</text>
-        <text>4:</text>
-        <text>5:</text>
-        <text>6: Error</text>
-        <text>7:</text>
-        <text>8:</text>
-        <text>9:</text>
-        <text>A:</text>
-        <text>B:</text>
-        <text>C:</text>
-        <text>D:</text>
-        <text>E: TX PDO state</text>
-        <text>F: TX PDO toggle</text>
-      </labels>
-      <actions>
-      </actions>
     </widget>
     <widget type="rectangle" version="2.0.0">
       <name>Rectangle_1</name>
       <x>310</x>
       <y>110</y>
       <width>270</width>
-      <height>470</height>
+      <height>130</height>
       <line_width>0</line_width>
       <line_color>
         <color name="GROUP-BORDER" red="150" green="155" blue="151">
@@ -299,62 +260,23 @@ $(pv_value)</tooltip>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_6</name>
-      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI2</pv_name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI2-Stat</pv_name>
       <x>440</x>
       <y>150</y>
       <width>115</width>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_7</name>
-      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI2-Stat</pv_name>
+      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-BO2-Stat</pv_name>
       <x>440</x>
       <y>180</y>
       <width>115</width>
-    </widget>
-    <widget type="byte_monitor" version="2.0.0">
-      <name>Byte Monitor</name>
-      <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI2-Stat</pv_name>
-      <x>370</x>
-      <y>220</y>
-      <width>138</width>
-      <height>340</height>
-      <numBits>16</numBits>
-      <bitReverse>true</bitReverse>
-      <horizontal>false</horizontal>
-      <off_color>
-        <color red="0" green="100" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <labels>
-        <text>0: Underrange</text>
-        <text>1: Overrange</text>
-        <text>2:</text>
-        <text>3:</text>
-        <text>4:</text>
-        <text>5:</text>
-        <text>6: Error</text>
-        <text>7:</text>
-        <text>8:</text>
-        <text>9:</text>
-        <text>A:</text>
-        <text>B:</text>
-        <text>C:</text>
-        <text>D:</text>
-        <text>E: TX PDO state</text>
-        <text>F: TX PDO toggle</text>
-      </labels>
-      <actions>
-      </actions>
     </widget>
     <widget type="bool_button" version="2.0.0">
       <name>Image Boolean Button_5</name>
       <bit>-1</bit>
       <x>20</x>
-      <y>600</y>
+      <y>270</y>
       <width>560</width>
       <height>40</height>
       <off_label>Diagnostics</off_label>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcHardwareLEBT_Doppler</name>
+  <macros>
+    <MASTER_ID>0</MASTER_ID>
+  </macros>
+  <width>230</width>
+  <height>410</height>
+  <actions>
+  </actions>
+  <widget type="rectangle" version="2.0.0">
+    <name>MGGrey03-background_2</name>
+    <width>500</width>
+    <height>550</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="GROUP-BORDER" red="150" green="155" blue="151">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <class>HEADER2</class>
+    <text>Hardware PRL TCB</text>
+    <width>230</width>
+    <height>50</height>
+    <font use_class="true">
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+    <background_color use_class="true">
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_12</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>170</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 2  EL2502</off_label>
+    <on_label>Slave 2  EL2502</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2502.bob</file>
+        <macros>
+          <SLAVE_POS>2</SLAVE_POS>
+          <TYPE>EL2502</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_13</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>50</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 0  EK1100</off_label>
+    <off_image>OffButton.png</off_image>
+    <on_label>Slave 0  EK1100</on_label>
+    <on_image>OffButton.png</on_image>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEK1100_v01.bob</file>
+        <macros>
+          <SLAVE_POS>0</SLAVE_POS>
+          <TYPE>EK1100</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_14</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>110</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 1  EL2502</off_label>
+    <on_label>Slave 1  EL2502</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2502.bob</file>
+        <macros>
+          <SLAVE_POS>1</SLAVE_POS>
+          <TYPE>EL2502</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_16</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>290</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 4 EL2502</off_label>
+    <on_label>Slave 4 EL2502</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2502.bob</file>
+        <macros>
+          <SLAVE_POS>4</SLAVE_POS>
+          <TYPE>EL2502</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_17</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>50</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 8 EL3202</off_label>
+    <on_label>Slave 8 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>8</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_18</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>231</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 3  EL2502</off_label>
+    <on_label>Slave 3  EL2502</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2502.bob</file>
+        <macros>
+          <SLAVE_POS>3</SLAVE_POS>
+          <TYPE>EL2502</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_15</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>350</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 5  EL2502</off_label>
+    <on_label>Slave 5  EL2502</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2502.bob</file>
+        <macros>
+          <SLAVE_POS>5</SLAVE_POS>
+          <TYPE>EL2502</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_19</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>410</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 6  EL2502</off_label>
+    <on_label>Slave 6  EL2502</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2502.bob</file>
+        <macros>
+          <SLAVE_POS>6</SLAVE_POS>
+          <TYPE>EL2502</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_20</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>110</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 9 EL3202</off_label>
+    <on_label>Slave 9 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>9</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_22</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>470</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 15 EL3202</off_label>
+    <on_label>Slave 15 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>15</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_23</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>410</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 14 EL3202</off_label>
+    <on_label>Slave 14 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>14</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_24</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>350</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 13 EL3202</off_label>
+    <on_label>Slave 13 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>13</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_25</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>290</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 12 EL3202</off_label>
+    <on_label>Slave 12 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>12</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_26</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>231</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 11 EL3202</off_label>
+    <on_label>Slave 11 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>11</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_27</name>
+    <bit>-1</bit>
+    <x>280</x>
+    <y>170</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 10 EL3202</off_label>
+    <on_label>Slave 10 EL3202</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL32X2_v01.bob</file>
+        <macros>
+          <SLAVE_POS>10</SLAVE_POS>
+          <TYPE>EL3202</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_28</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>470</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 7  EL9410</off_label>
+    <on_label>Slave 7 EL9410</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL9410.opi</file>
+        <macros>
+          <SLAVE_POS>7</SLAVE_POS>
+          <TYPE>EL9410</TYPE>
+        </macros>
+        <target>standalone</target>
+      </action>
+    </actions>
+  </widget>
+</display>

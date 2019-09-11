@@ -3086,7 +3086,7 @@
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_59</name>
-      <pv_name>$(P)$(M).LLS</pv_name>
+      <pv_name>$(P)$(M).HLS</pv_name>
       <bit>0</bit>
       <x>280</x>
       <y>100</y>
@@ -3112,7 +3112,7 @@
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_60</name>
-      <pv_name>$(P)$(M).HLS</pv_name>
+      <pv_name>$(P)$(M).LLS</pv_name>
       <bit>0</bit>
       <x>280</x>
       <y>130</y>

@@ -51,6 +51,7 @@
       <x>19</x>
       <y>50</y>
       <width>439</width>
+      <format>6</format>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_6</name>

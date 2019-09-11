@@ -560,8 +560,8 @@
         <text>User Pos (VAL)</text>
         <x>84</x>
         <y>42</y>
-        <width>69</width>
-        <height>12</height>
+        <width>73</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -621,8 +621,8 @@
         <text>Readback (RBV)</text>
         <x>77</x>
         <y>76</y>
-        <width>75</width>
-        <height>12</height>
+        <width>81</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1194,8 +1194,8 @@
         <text>Dial Readback (DRBV)</text>
         <x>316</x>
         <y>76</y>
-        <width>102</width>
-        <height>12</height>
+        <width>111</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1256,8 +1256,8 @@
         <text>Dial Pos (DVAL)</text>
         <x>329</x>
         <y>42</y>
-        <width>73</width>
-        <height>12</height>
+        <width>78</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1353,8 +1353,8 @@
 </text>
         <x>331</x>
         <y>8</y>
-        <width>69</width>
-        <height>24</height>
+        <width>68</width>
+        <height>25</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1455,8 +1455,8 @@
         <text>Raw Pos RVAL (INT32)</text>
         <x>321</x>
         <y>120</y>
-        <width>105</width>
-        <height>12</height>
+        <width>111</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1517,8 +1517,8 @@
         <text>REP (INT32)</text>
         <x>312</x>
         <y>316</y>
-        <width>57</width>
-        <height>12</height>
+        <width>59</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -1608,8 +1608,8 @@
         <text>RMP (INT32)</text>
         <x>344</x>
         <y>168</y>
-        <width>59</width>
-        <height>12</height>
+        <width>62</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2225,8 +2225,8 @@
         <text>AccAct</text>
         <x>2</x>
         <y>154</y>
-        <width>31</width>
-        <height>12</height>
+        <width>34</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2254,8 +2254,8 @@
         <text>VelAct</text>
         <x>102</x>
         <y>154</y>
-        <width>29</width>
-        <height>12</height>
+        <width>32</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2283,8 +2283,8 @@
         <text>DecAct</text>
         <x>194</x>
         <y>154</y>
-        <width>32</width>
-        <height>12</height>
+        <width>36</width>
+        <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
           </font>
@@ -2697,8 +2697,8 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update</name>
       <pv_name>$(P)$(M).DESC</pv_name>
-      <x>420</x>
-      <width>180</width>
+      <x>120</x>
+      <width>480</width>
       <height>50</height>
       <font>
         <font family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
@@ -2833,10 +2833,10 @@
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_30</name>
-      <text>Accelration:</text>
-      <x>50</x>
+      <text>Acceleration:</text>
+      <x>40</x>
       <y>250</y>
-      <width>80</width>
+      <width>90</width>
       <height>21</height>
       <background_color>
         <color name="IO Background" red="255" green="255" blue="205">
@@ -2876,6 +2876,7 @@
       <x>40</x>
       <y>310</y>
       <width>90</width>
+      <height>21</height>
       <background_color>
         <color name="IO Background" red="255" green="255" blue="205">
         </color>
@@ -2892,7 +2893,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_3</name>
-      <pv_name>$(P)$(R)Acc-RB</pv_name>
+      <pv_name>$(P)$(R)-Acc-RB</pv_name>
       <x>140</x>
       <y>250</y>
       <width>130</width>
@@ -2907,7 +2908,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_4</name>
-      <pv_name>$(P)$(R)VelAct</pv_name>
+      <pv_name>$(P)$(R)-VelAct</pv_name>
       <x>140</x>
       <y>280</y>
       <width>130</width>
@@ -2922,7 +2923,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_5</name>
-      <pv_name>$(P)$(R)Dec-RB</pv_name>
+      <pv_name>$(P)$(R)-Dec-RB</pv_name>
       <x>140</x>
       <y>310</y>
       <width>130</width>
@@ -3078,6 +3079,7 @@
     </widget>
     <widget type="spinner" version="2.0.0">
       <name>Spinner</name>
+      <pv_name>$(P)$(M).VAL</pv_name>
       <x>170</x>
       <y>100</y>
       <width>90</width>
@@ -3427,7 +3429,7 @@
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_54</name>
-      <pv_name>$(P)$(R)Err</pv_name>
+      <pv_name>$(P)$(R)-Err</pv_name>
       <bit>0</bit>
       <x>920</x>
       <y>100</y>
@@ -3828,11 +3830,12 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_19</name>
-      <pv_name>$(P)$(R)MsgTxt</pv_name>
+      <pv_name>$(P)$(R)-MsgTxt</pv_name>
       <x>150</x>
       <y>460</y>
       <width>340</width>
       <height>60</height>
+      <format>6</format>
       <rules>
         <rule name="BorderRile" prop_id="name" out_exp="false">
           <exp bool_exp="pv0==1">

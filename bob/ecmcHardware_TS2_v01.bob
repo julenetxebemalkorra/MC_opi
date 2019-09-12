@@ -46,7 +46,7 @@
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL2819.opi</file>
+        <file>ecmcEL2819_v01.bob</file>
         <macros>
           <SLAVE_POS>2</SLAVE_POS>
           <TYPE>EL2819</TYPE>
@@ -69,7 +69,7 @@
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEK1100.opi</file>
+        <file>ecmcEK1100_v01.bob</file>
         <macros>
           <SLAVE_POS>0</SLAVE_POS>
           <TYPE>EK1100</TYPE>
@@ -90,7 +90,7 @@
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL1018.opi</file>
+        <file>ecmcEL1018_v01.bob</file>
         <macros>
           <SLAVE_POS>1</SLAVE_POS>
           <TYPE>EL1809</TYPE>

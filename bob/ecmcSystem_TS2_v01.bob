@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <macros>
-    <P>TS2:</P>
+    <P>IOC2:</P>
   </macros>
   <background_color>
     <color red="240" green="240" blue="240">
@@ -159,6 +159,7 @@
             <name>Linking Container_1</name>
             <file>ecmcHardware_TS2_v01.bob</file>
             <macros>
+              <MASTER_ID>0</MASTER_ID>
               <P>TS2:</P>
             </macros>
             <x>18</x>
@@ -175,15 +176,15 @@
         </children>
       </tab>
       <tab>
-        <name>TS2:RF-PwrDiv:Mtr1</name>
+        <name>Axis1</name>
         <children>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container</name>
             <file>../bob/ecmcOneAxisMR.bob</file>
             <macros>
               <AxisId>1</AxisId>
-              <M>RF-PwrDiv:Mtr1</M>
-              <R>RF-PwrDiv:Mtr1</R>
+              <M>Axis1</M>
+              <R>Axis1-</R>
             </macros>
             <x>18</x>
             <y>21</y>
@@ -199,15 +200,15 @@
         </children>
       </tab>
       <tab>
-        <name>TS2:RF-PwrDiv:Mtr2</name>
+        <name>Axis2</name>
         <children>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container_2</name>
             <file>../bob/ecmcOneAxisMR.bob</file>
             <macros>
               <AxisId>2</AxisId>
-              <M>RF-PwrDiv:Mtr2</M>
-              <R>RF-PwrDiv:Mtr2</R>
+              <M>Axis2</M>
+              <R>Axis2-</R>
             </macros>
             <x>18</x>
             <y>29</y>
@@ -271,7 +272,6 @@
         <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
         </font>
       </scale_font>
-      <visible>true</visible>
     </x_axis>
     <y_axes>
       <y_axis>
@@ -307,7 +307,6 @@
         <line_width>1</line_width>
         <point_type>0</point_type>
         <point_size>4</point_size>
-        <visible>true</visible>
       </trace>
       <trace>
         <name>$(traces[1].y_pv)</name>
@@ -323,7 +322,6 @@
         <line_width>1</line_width>
         <point_type>0</point_type>
         <point_size>4</point_size>
-        <visible>true</visible>
       </trace>
     </traces>
   </widget>

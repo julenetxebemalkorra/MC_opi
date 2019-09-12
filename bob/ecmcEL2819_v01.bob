@@ -733,7 +733,7 @@ $(pv_value)</tooltip>
       <show_led>false</show_led>
       <actions>
         <action type="open_display">
-          <file>ecmcDiagEcSlave.opi</file>
+          <file>ecmcDiagEcSlave_v01.bob</file>
           <target>tab</target>
         </action>
       </actions>

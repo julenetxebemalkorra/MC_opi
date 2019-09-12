@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <macros>
-    <P>LEBT-010:PBI-Dpl-</P>
+    <P>IOC2:</P>
   </macros>
   <background_color>
     <color red="240" green="240" blue="240">
@@ -15,27 +15,10 @@
       <tab>
         <name>General</name>
         <children>
-          <widget type="embedded" version="2.0.0">
-            <name>Linking Container_1</name>
-            <file>../bob/ecmcHardwareLEBT_Doppler_v01.bob</file>
-            <macros>
-              <P>LEBT-010:PBI-Dpl-</P>
-            </macros>
-            <x>22</x>
-            <y>299</y>
-            <width>280</width>
-            <height>455</height>
-            <actions>
-            </actions>
-            <border_color>
-              <color red="0" green="128" blue="255">
-              </color>
-            </border_color>
-          </widget>
           <widget type="group" version="2.0.0">
             <name>Diagnostics</name>
-            <x>402</x>
-            <y>259</y>
+            <x>318</x>
+            <y>229</y>
             <width>241</width>
             <height>487</height>
             <font>
@@ -160,7 +143,7 @@
             <name>Linking Container</name>
             <file>../bob/ecmcMCUGeneral_v01.bob</file>
             <macros>
-              <P>LEBT-010:PBI-Dpl-</P>
+              <P>IOC2:</P>
             </macros>
             <y>9</y>
             <width>550</width>
@@ -172,23 +155,17 @@
               </color>
             </border_color>
           </widget>
-        </children>
-      </tab>
-      <tab>
-        <name>Axis 1: Doppler</name>
-        <children>
           <widget type="embedded" version="2.0.0">
-            <name>Linking Container</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
+            <name>Linking Container_1</name>
+            <file>ecmcHardwareMCU1021_v01.bob</file>
             <macros>
-              <AxisId>1</AxisId>
-              <M>001:Mtr</M>
-              <R>001:Mtr-</R>
+              <MASTER_ID>0</MASTER_ID>
+              <P>IOC2:</P>
             </macros>
             <x>18</x>
-            <y>233</y>
-            <width>630</width>
-            <height>390</height>
+            <y>229</y>
+            <width>240</width>
+            <height>540</height>
             <actions>
             </actions>
             <border_color>
@@ -199,173 +176,48 @@
         </children>
       </tab>
       <tab>
-        <name>Temperature</name>
+        <name>Axis1</name>
         <children>
-          <widget type="group" version="2.0.0">
-            <name>Channel 1</name>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container</name>
+            <file>../bob/ecmcOneAxisMR.bob</file>
             <macros>
-              <CH_INDEX>1</CH_INDEX>
-              <MASTER_ID>0</MASTER_ID>
-              <SLAVE_POS>3</SLAVE_POS>
-              <TYPE>EL3312</TYPE>
+              <AxisId>1</AxisId>
+              <M>Axis1</M>
+              <R>Axis1-</R>
             </macros>
-            <x>24</x>
-            <y>96</y>
-            <width>271</width>
-            <height>439</height>
-            <foreground_color>
-              <color red="0" green="0" blue="0">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color red="255" green="255" blue="255">
-              </color>
-            </background_color>
-            <transparent>true</transparent>
+            <x>18</x>
+            <y>21</y>
+            <width>1370</width>
+            <height>580</height>
             <actions>
             </actions>
-            <widget type="label" version="2.0.0">
-              <name>Label</name>
-              <text>Status word:</text>
-              <x>18</x>
-              <y>33</y>
-              <width>121</width>
-              <foreground_color>
-                <color red="0" green="0" blue="0">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color red="255" green="255" blue="255">
-                </color>
-              </background_color>
-              <vertical_alignment>1</vertical_alignment>
-              <wrap_words>false</wrap_words>
-              <actions>
-              </actions>
-              <border_color>
-                <color red="0" green="128" blue="255">
-                </color>
-              </border_color>
-            </widget>
-            <widget type="textentry" version="3.0.0">
-              <name>Text_3</name>
-              <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI$(CH_INDEX)-Stat</pv_name>
-              <x>108</x>
-              <y>30</y>
-              <width>115</width>
-              <height>26</height>
-              <foreground_color>
-                <color red="0" green="0" blue="0">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color red="238" green="238" blue="236">
-                </color>
-              </background_color>
-              <precision>0</precision>
-              <show_units>false</show_units>
-              <actions>
-              </actions>
-              <enabled>false</enabled>
-              <border_color>
-                <color red="0" green="128" blue="255">
-                </color>
-              </border_color>
-            </widget>
-            <widget type="byte_monitor" version="2.0.0">
-              <name>Byte Monitor</name>
-              <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI$(CH_INDEX)-Stat</pv_name>
-              <x>24</x>
-              <y>55</y>
-              <width>138</width>
-              <height>337</height>
-              <numBits>16</numBits>
-              <bitReverse>true</bitReverse>
-              <horizontal>false</horizontal>
-              <off_color>
-                <color red="0" green="100" blue="0">
-                </color>
-              </off_color>
-              <on_color>
-                <color red="0" green="255" blue="0">
-                </color>
-              </on_color>
-              <actions>
-              </actions>
-            </widget>
-            <widget type="label" version="2.0.0">
-              <name>Label</name>
-              <text>Temperature</text>
-              <x>18</x>
-              <y>8</y>
-              <width>139</width>
-              <foreground_color>
-                <color red="0" green="0" blue="0">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color red="255" green="255" blue="255">
-                </color>
-              </background_color>
-              <vertical_alignment>1</vertical_alignment>
-              <wrap_words>false</wrap_words>
-              <actions>
-              </actions>
-              <border_color>
-                <color red="0" green="128" blue="255">
-                </color>
-              </border_color>
-            </widget>
-            <widget type="textentry" version="3.0.0">
-              <name>Text_3</name>
-              <pv_name>$(P)ec$(MASTER_ID)-s$(SLAVE_POS)-$(TYPE)-AI$(CH_INDEX)</pv_name>
-              <x>108</x>
-              <y>5</y>
-              <width>115</width>
-              <height>26</height>
-              <foreground_color>
-                <color red="0" green="0" blue="0">
-                </color>
-              </foreground_color>
-              <background_color>
-                <color red="238" green="238" blue="236">
-                </color>
-              </background_color>
-              <precision>0</precision>
-              <show_units>false</show_units>
-              <actions>
-              </actions>
-              <enabled>false</enabled>
-              <border_color>
-                <color red="0" green="128" blue="255">
-                </color>
-              </border_color>
-            </widget>
-          </widget>
-          <widget type="label" version="2.0.0">
-            <name>Label</name>
-            <text>Temperature Doppler:
-slave 3: EL3312</text>
-            <x>38</x>
-            <y>13</y>
-            <width>435</width>
-            <height>69</height>
-            <foreground_color>
-              <color red="0" green="0" blue="0">
-              </color>
-            </foreground_color>
-            <background_color>
-              <color red="255" green="255" blue="255">
-              </color>
-            </background_color>
-            <horizontal_alignment>1</horizontal_alignment>
-            <vertical_alignment>1</vertical_alignment>
-            <wrap_words>false</wrap_words>
-            <actions>
-            </actions>
-            <border_width>2</border_width>
             <border_color>
-              <color red="0" green="0" blue="0">
+              <color red="0" green="128" blue="255">
+              </color>
+            </border_color>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>Axis2</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Linking Container_2</name>
+            <file>../bob/ecmcOneAxisMR.bob</file>
+            <macros>
+              <AxisId>2</AxisId>
+              <M>Axis2</M>
+              <R>Axis2-</R>
+            </macros>
+            <x>18</x>
+            <y>29</y>
+            <width>1370</width>
+            <height>580</height>
+            <actions>
+            </actions>
+            <border_color>
+              <color red="0" green="128" blue="255">
               </color>
             </border_color>
           </widget>
@@ -373,9 +225,9 @@ slave 3: EL3312</text>
       </tab>
     </tabs>
     <x>40</x>
-    <y>8</y>
-    <width>721</width>
-    <height>852</height>
+    <y>10</y>
+    <width>1480</width>
+    <height>880</height>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -386,8 +238,8 @@ slave 3: EL3312</text>
   </widget>
   <widget type="xyplot" version="2.0.0">
     <name>XY Graph_1</name>
-    <x>40</x>
-    <y>870</y>
+    <x>30</x>
+    <y>900</y>
     <width>895</width>
     <height>859</height>
     <foreground_color>

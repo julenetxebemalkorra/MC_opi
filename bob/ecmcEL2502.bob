@@ -113,7 +113,7 @@ $(pv_value)</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label_11</name>
       <class>HEADER3</class>
-      <text>Channel 1</text>
+      <text use_class="true">&lt;header-3&gt;</text>
       <x>20</x>
       <y>110</y>
       <width>270</width>
@@ -122,11 +122,10 @@ $(pv_value)</tooltip>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <background_color use_class="true">
-        <color name="Background" red="220" green="225" blue="221">
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25">
         </color>
-      </background_color>
-      <transparent use_class="true">true</transparent>
+      </foreground_color>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
     </widget>
@@ -203,7 +202,7 @@ $(pv_value)</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label_14</name>
       <class>HEADER3</class>
-      <text>Channel 2</text>
+      <text use_class="true">&lt;header-3&gt;</text>
       <x>310</x>
       <y>110</y>
       <width>270</width>
@@ -212,11 +211,10 @@ $(pv_value)</tooltip>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <background_color use_class="true">
-        <color name="Background" red="220" green="225" blue="221">
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25">
         </color>
-      </background_color>
-      <transparent use_class="true">true</transparent>
+      </foreground_color>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
     </widget>

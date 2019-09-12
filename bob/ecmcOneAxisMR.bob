@@ -560,7 +560,7 @@
         <text>User Pos (VAL)</text>
         <x>84</x>
         <y>42</y>
-        <width>73</width>
+        <width>84</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -621,7 +621,7 @@
         <text>Readback (RBV)</text>
         <x>77</x>
         <y>76</y>
-        <width>81</width>
+        <width>84</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -1194,7 +1194,7 @@
         <text>Dial Readback (DRBV)</text>
         <x>316</x>
         <y>76</y>
-        <width>111</width>
+        <width>120</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -1256,7 +1256,7 @@
         <text>Dial Pos (DVAL)</text>
         <x>329</x>
         <y>42</y>
-        <width>78</width>
+        <width>90</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -1353,7 +1353,7 @@
 </text>
         <x>331</x>
         <y>8</y>
-        <width>68</width>
+        <width>72</width>
         <height>25</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -1455,7 +1455,7 @@
         <text>Raw Pos RVAL (INT32)</text>
         <x>321</x>
         <y>120</y>
-        <width>111</width>
+        <width>120</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -1517,7 +1517,7 @@
         <text>REP (INT32)</text>
         <x>312</x>
         <y>316</y>
-        <width>59</width>
+        <width>66</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -1608,7 +1608,7 @@
         <text>RMP (INT32)</text>
         <x>344</x>
         <y>168</y>
-        <width>62</width>
+        <width>66</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -2225,7 +2225,7 @@
         <text>AccAct</text>
         <x>2</x>
         <y>154</y>
-        <width>34</width>
+        <width>36</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -2254,7 +2254,7 @@
         <text>VelAct</text>
         <x>102</x>
         <y>154</y>
-        <width>32</width>
+        <width>36</width>
         <height>13</height>
         <font>
           <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
@@ -2893,7 +2893,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_3</name>
-      <pv_name>$(P)$(R)-Acc-RB</pv_name>
+      <pv_name>$(P)$(R)Acc-RB</pv_name>
       <x>140</x>
       <y>250</y>
       <width>130</width>
@@ -2908,7 +2908,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_4</name>
-      <pv_name>$(P)$(R)-VelAct</pv_name>
+      <pv_name>$(P)$(R)VelAct</pv_name>
       <x>140</x>
       <y>280</y>
       <width>130</width>
@@ -2923,7 +2923,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_5</name>
-      <pv_name>$(P)$(R)-Dec-RB</pv_name>
+      <pv_name>$(P)$(R)Dec-RB</pv_name>
       <x>140</x>
       <y>310</y>
       <width>130</width>
@@ -3016,7 +3016,7 @@
       <x>735</x>
       <y>130</y>
       <off_color>
-        <color name="LED-YELLOW-ON" red="255" green="235" blue="17">
+        <color name="LED-GREEN-OFF" red="90" green="110" blue="90">
         </color>
       </off_color>
       <on_color>
@@ -3410,7 +3410,7 @@
     <widget type="label" version="2.0.0">
       <name>Label_31</name>
       <class>HEADER3</class>
-      <text>General Status</text>
+      <text use_class="true">&lt;header-3&gt;</text>
       <x>900</x>
       <y>50</y>
       <width>190</width>
@@ -3419,17 +3419,16 @@
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <background_color use_class="true">
-        <color name="Background" red="220" green="225" blue="221">
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25">
         </color>
-      </background_color>
-      <transparent use_class="true">true</transparent>
+      </foreground_color>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_54</name>
-      <pv_name>$(P)$(R)-Err</pv_name>
+      <pv_name>$(P)$(R)Err</pv_name>
       <bit>0</bit>
       <x>920</x>
       <y>100</y>
@@ -3742,7 +3741,7 @@
     <widget type="label" version="2.0.0">
       <name>Label_32</name>
       <class>HEADER3</class>
-      <text>Motor Status</text>
+      <text use_class="true">&lt;header-3&gt;</text>
       <x>1110</x>
       <y>50</y>
       <width>220</width>
@@ -3751,11 +3750,10 @@
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <background_color use_class="true">
-        <color name="Background" red="220" green="225" blue="221">
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25">
         </color>
-      </background_color>
-      <transparent use_class="true">true</transparent>
+      </foreground_color>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
     </widget>
@@ -3830,7 +3828,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_19</name>
-      <pv_name>$(P)$(R)-MsgTxt</pv_name>
+      <pv_name>$(P)$(R)MsgTxt</pv_name>
       <x>150</x>
       <y>460</y>
       <width>340</width>
@@ -4507,11 +4505,6 @@
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
     </font>
-    <background_color use_class="true">
-      <color name="Background" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <transparent use_class="true">true</transparent>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle_6</name>

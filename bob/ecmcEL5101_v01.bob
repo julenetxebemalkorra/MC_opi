@@ -113,7 +113,7 @@ $(pv_value)</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label_18</name>
       <class>HEADER3</class>
-      <text>Encoder</text>
+      <text use_class="true">&lt;header-3&gt;</text>
       <x>20</x>
       <y>110</y>
       <width>460</width>
@@ -122,11 +122,10 @@ $(pv_value)</tooltip>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
       </font>
-      <background_color use_class="true">
-        <color name="Background" red="220" green="225" blue="221">
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25">
         </color>
-      </background_color>
-      <transparent use_class="true">true</transparent>
+      </foreground_color>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
     </widget>
@@ -142,7 +141,7 @@ $(pv_value)</tooltip>
       <show_led>false</show_led>
       <actions>
         <action type="open_display">
-          <file>ecmcDiagEcSlave.opi</file>
+          <file>ecmcDiagEcSlave_v01.bob</file>
           <target>tab</target>
         </action>
       </actions>
@@ -164,28 +163,6 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0">
         </color>
       </on_color>
-      <foreground_color>
-        <color red="46" green="52" blue="54">
-        </color>
-      </foreground_color>
-      <labels>
-        <text>0: Enable Latch C</text>
-        <text>1: Enable latch extern pos</text>
-        <text>2: Set Counter</text>
-        <text>3: Enable latch extern neg</text>
-        <text>4:</text>
-        <text>5:</text>
-        <text>6:</text>
-        <text>7:</text>
-        <text>8:</text>
-        <text>9:</text>
-        <text>A:</text>
-        <text>B:</text>
-        <text>C:</text>
-        <text>D:</text>
-        <text>E:</text>
-        <text>F:</text>
-      </labels>
       <actions>
       </actions>
     </widget>
@@ -207,28 +184,6 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0">
         </color>
       </on_color>
-      <foreground_color>
-        <color red="46" green="52" blue="54">
-        </color>
-      </foreground_color>
-      <labels>
-        <text>0: Latch C valid</text>
-        <text>1: Latch extern valid</text>
-        <text>2: Set counter done</text>
-        <text>3: Counter underflow</text>
-        <text>4: Counter overflow</text>
-        <text>5: Status of input status</text>
-        <text>6: Open circuit</text>
-        <text>7: Extrapolation stall</text>
-        <text>8: Status input A</text>
-        <text>9: Status input B</text>
-        <text>A: Status input C</text>
-        <text>B: Status input gate</text>
-        <text>C: Status input latch</text>
-        <text>D: Sync error</text>
-        <text>E:</text>
-        <text>F:</text>
-      </labels>
       <actions>
       </actions>
     </widget>

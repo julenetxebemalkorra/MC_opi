@@ -452,7 +452,7 @@
       </background_color>
       <actions>
         <action type="open_display">
-          <file>ecmcDiagEcSlave.opi</file>
+          <file>ecmcDiagEcSlave_v01.bob</file>
           <target>tab</target>
         </action>
       </actions>

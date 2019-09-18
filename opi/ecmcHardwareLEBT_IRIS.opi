@@ -50,7 +50,7 @@
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
-    <height>565</height>
+    <height>679</height>
     <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
@@ -79,7 +79,7 @@
           <path>ecmcEL7041.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>7</SLAVE_POS>
+            <SLAVE_POS>9</SLAVE_POS>
             <TYPE>EL7041</TYPE>
           </macros>
           <mode>1</mode>
@@ -142,7 +142,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>-1a912884:1556dcabf47:-3240</wuid>
       <x>13</x>
-      <y>351</y>
+      <y>447</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -172,7 +172,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 7 EL7041</text>
+      <text>Slave 9 EL7041</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -182,7 +182,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-1a912884:1556dcabf47:-323f</wuid>
       <x>37</x>
-      <y>366</y>
+      <y>462</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -190,7 +190,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL7041.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>8</SLAVE_POS>
+            <SLAVE_POS>10</SLAVE_POS>
             <TYPE>EL7041</TYPE>
           </macros>
           <mode>1</mode>
@@ -253,7 +253,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>-1a912884:1556dcabf47:-323e</wuid>
       <x>13</x>
-      <y>396</y>
+      <y>492</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -283,7 +283,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 8 EL7041</text>
+      <text>Slave 10 EL7041</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -293,7 +293,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-1a912884:1556dcabf47:-323d</wuid>
       <x>37</x>
-      <y>411</y>
+      <y>507</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -302,7 +302,7 @@ $(pv_value)</tooltip>
           <macros>
             <include_parent_macros>true</include_parent_macros>
             <SLAVE_POS>2</SLAVE_POS>
-            <TYPE>EL1809</TYPE>
+            <TYPE>EL1808</TYPE>
           </macros>
           <mode>1</mode>
           <description></description>
@@ -394,7 +394,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 2 EL1809</text>
+      <text>Slave 2 EL1808</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -412,7 +412,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL2819.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>3</SLAVE_POS>
+            <SLAVE_POS>5</SLAVE_POS>
             <TYPE>EL2819</TYPE>
           </macros>
           <mode>1</mode>
@@ -475,7 +475,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>-1a912884:1556dcabf47:-323a</wuid>
       <x>12</x>
-      <y>156</y>
+      <y>252</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -505,7 +505,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 3 EL2819</text>
+      <text>Slave 5 EL2819</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -515,7 +515,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-1a912884:1556dcabf47:-3239</wuid>
       <x>36</x>
-      <y>171</y>
+      <y>267</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -635,7 +635,7 @@ $(pv_value)</tooltip>
           <macros>
             <include_parent_macros>true</include_parent_macros>
             <SLAVE_POS>1</SLAVE_POS>
-            <TYPE>EL1809</TYPE>
+            <TYPE>EL1808</TYPE>
           </macros>
           <mode>1</mode>
           <description></description>
@@ -727,7 +727,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 1 EL1809</text>
+      <text>Slave 1 EL1808</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -745,7 +745,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL7041.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>5</SLAVE_POS>
+            <SLAVE_POS>7</SLAVE_POS>
             <TYPE>EL7041</TYPE>
           </macros>
           <mode>1</mode>
@@ -808,7 +808,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>-2fde124d:15ac79a93b8:-4678</wuid>
       <x>12</x>
-      <y>252</y>
+      <y>348</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -838,7 +838,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 5 EL7041</text>
+      <text>Slave 7 EL7041</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -848,7 +848,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-2fde124d:15ac79a93b8:-4677</wuid>
       <x>36</x>
-      <y>267</y>
+      <y>363</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -856,7 +856,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL9410.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>4</SLAVE_POS>
+            <SLAVE_POS>6</SLAVE_POS>
             <TYPE>EL9410</TYPE>
           </macros>
           <mode>1</mode>
@@ -919,7 +919,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>1f582971:15bd21066a4:-4fe6</wuid>
       <x>12</x>
-      <y>204</y>
+      <y>300</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -949,7 +949,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 4 EL9410</text>
+      <text>Slave 6 EL9410</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -959,7 +959,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>1f582971:15bd21066a4:-4fe5</wuid>
       <x>36</x>
-      <y>219</y>
+      <y>315</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -967,7 +967,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL7041.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>6</SLAVE_POS>
+            <SLAVE_POS>8</SLAVE_POS>
             <TYPE>EL7041</TYPE>
           </macros>
           <mode>1</mode>
@@ -1030,7 +1030,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>1f582971:15bd21066a4:-4728</wuid>
       <x>12</x>
-      <y>300</y>
+      <y>396</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -1060,7 +1060,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 6 EL7041</text>
+      <text>Slave 8 EL7041</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -1070,7 +1070,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>1f582971:15bd21066a4:-4727</wuid>
       <x>36</x>
-      <y>315</y>
+      <y>411</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -1078,7 +1078,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL7041.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>9</SLAVE_POS>
+            <SLAVE_POS>11</SLAVE_POS>
             <TYPE>EL7041</TYPE>
           </macros>
           <mode>1</mode>
@@ -1141,7 +1141,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>-758d1597:16c716183a0:-7bac</wuid>
       <x>14</x>
-      <y>444</y>
+      <y>540</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -1171,7 +1171,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 9 EL7041</text>
+      <text>Slave 11 EL7041</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -1181,7 +1181,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-758d1597:16c716183a0:-7bab</wuid>
       <x>38</x>
-      <y>459</y>
+      <y>555</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
       <actions hook="false" hook_all="false">
@@ -1189,7 +1189,7 @@ $(pv_value)</tooltip>
           <path>ecmcEL7041.opi</path>
           <macros>
             <include_parent_macros>true</include_parent_macros>
-            <SLAVE_POS>10</SLAVE_POS>
+            <SLAVE_POS>12</SLAVE_POS>
             <TYPE>EL7041</TYPE>
           </macros>
           <mode>1</mode>
@@ -1252,7 +1252,7 @@ $(pv_value)</tooltip>
       <width>180</width>
       <wuid>-758d1597:16c716183a0:-7baa</wuid>
       <x>14</x>
-      <y>489</y>
+      <y>585</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -1282,7 +1282,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Slave 10 EL7041</text>
+      <text>Slave 12 EL7041</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -1292,7 +1292,229 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-758d1597:16c716183a0:-7ba9</wuid>
       <x>38</x>
-      <y>504</y>
+      <y>600</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="OPEN_DISPLAY">
+          <path>ecmcEL2819.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <SLAVE_POS>4</SLAVE_POS>
+            <TYPE>EL2819</TYPE>
+          </macros>
+          <mode>1</mode>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <align_to_nearest_second>false</align_to_nearest_second>
+      <auto_size>false</auto_size>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <bit>-1</bit>
+      <boolean_label_position>0</boolean_label_position>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <confirm_message>Are your sure you want to do this?</confirm_message>
+      <data_type>0</data_type>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>49</height>
+      <name>Image Boolean Button_4</name>
+      <no_animation>false</no_animation>
+      <off_image>OffButton.png</off_image>
+      <off_label>OFF</off_label>
+      <on_image>OffButton.png</on_image>
+      <on_label>ON</on_label>
+      <password></password>
+      <push_action_index>0</push_action_index>
+      <pv_name></pv_name>
+      <pv_value />
+      <released_action_index>0</released_action_index>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_boolean_label>false</show_boolean_label>
+      <show_confirm_dialog>0</show_confirm_dialog>
+      <stretch_to_fit>true</stretch_to_fit>
+      <toggle_button>false</toggle_button>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparency>false</transparency>
+      <visible>true</visible>
+      <widget_type>Image Boolean Button</widget_type>
+      <width>180</width>
+      <wuid>-6ebae757:16d43bc7649:-7666</wuid>
+      <x>12</x>
+      <y>204</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <auto_size>false</auto_size>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>20</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <name>Label_3</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <text>Slave 4 EL2819</text>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Label</widget_type>
+      <width>133</width>
+      <wrap_words>false</wrap_words>
+      <wuid>-6ebae757:16d43bc7649:-7665</wuid>
+      <x>36</x>
+      <y>219</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="OPEN_DISPLAY">
+          <path>ecmcEL1018.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <SLAVE_POS>3</SLAVE_POS>
+            <TYPE>EL1808</TYPE>
+          </macros>
+          <mode>1</mode>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <align_to_nearest_second>false</align_to_nearest_second>
+      <auto_size>false</auto_size>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <bit>-1</bit>
+      <boolean_label_position>0</boolean_label_position>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <confirm_message>Are your sure you want to do this?</confirm_message>
+      <data_type>0</data_type>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>49</height>
+      <name>Image Boolean Button_3</name>
+      <no_animation>false</no_animation>
+      <off_image>OffButton.png</off_image>
+      <off_label>OFF</off_label>
+      <on_image>OffButton.png</on_image>
+      <on_label>ON</on_label>
+      <password></password>
+      <push_action_index>0</push_action_index>
+      <pv_name></pv_name>
+      <pv_value />
+      <released_action_index>0</released_action_index>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_boolean_label>false</show_boolean_label>
+      <show_confirm_dialog>0</show_confirm_dialog>
+      <stretch_to_fit>true</stretch_to_fit>
+      <toggle_button>false</toggle_button>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparency>false</transparency>
+      <visible>true</visible>
+      <widget_type>Image Boolean Button</widget_type>
+      <width>180</width>
+      <wuid>-6ebae757:16d43bc7649:-765a</wuid>
+      <x>12</x>
+      <y>156</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <auto_size>false</auto_size>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0" pixels="false">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>20</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <name>Label_2</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <text>Slave 3 EL1808</text>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Label</widget_type>
+      <width>133</width>
+      <wrap_words>false</wrap_words>
+      <wuid>-6ebae757:16d43bc7649:-7659</wuid>
+      <x>36</x>
+      <y>171</y>
     </widget>
   </widget>
 </display>

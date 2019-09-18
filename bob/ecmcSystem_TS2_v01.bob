@@ -272,6 +272,7 @@
         <font name="Default" family="Source Sans Pro" style="REGULAR" size="16.0">
         </font>
       </scale_font>
+      <visible>true</visible>
     </x_axis>
     <y_axes>
       <y_axis>
@@ -307,6 +308,7 @@
         <line_width>1</line_width>
         <point_type>0</point_type>
         <point_size>4</point_size>
+        <visible>true</visible>
       </trace>
       <trace>
         <name>$(traces[1].y_pv)</name>
@@ -322,6 +324,7 @@
         <line_width>1</line_width>
         <point_type>0</point_type>
         <point_size>4</point_size>
+        <visible>true</visible>
       </trace>
     </traces>
   </widget>

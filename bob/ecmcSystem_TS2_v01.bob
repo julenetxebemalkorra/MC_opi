@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <macros>
-    <P>IOC2:</P>
+    <P>TS2:</P>
   </macros>
   <background_color>
     <color red="240" green="240" blue="240">
@@ -183,8 +183,8 @@
             <file>../bob/ecmcOneAxisMR.bob</file>
             <macros>
               <AxisId>1</AxisId>
-              <M>Axis1</M>
-              <R>Axis1-</R>
+              <M>RF-PwrDiv:Mtr1</M>
+              <R>RF-PwrDiv:Mtr1-</R>
             </macros>
             <x>18</x>
             <y>21</y>
@@ -207,8 +207,8 @@
             <file>../bob/ecmcOneAxisMR.bob</file>
             <macros>
               <AxisId>2</AxisId>
-              <M>Axis2</M>
-              <R>Axis2-</R>
+              <M>RF-PwrDiv:Mtr2</M>
+              <R>RF-PwrDiv:Mtr1-</R>
             </macros>
             <x>18</x>
             <y>29</y>
@@ -232,6 +232,7 @@
       <color red="240" green="240" blue="240">
       </color>
     </background_color>
+    <active_tab>1</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>

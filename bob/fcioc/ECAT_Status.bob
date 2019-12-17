@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <width>230</width>
+    <height>180</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle</name>
+      <class>GROUP</class>
+      <width>230</width>
+      <height>180</height>
+      <line_color use_class="true">
+        <color name="GROUP-BORDER" red="150" green="155" blue="151">
+        </color>
+      </line_color>
+      <background_color use_class="true">
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_2</name>
+      <text>MOVEMENT PERMIT</text>
+      <x>10</x>
+      <y>50</y>
+      <width>150</width>
+      <height>30</height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_3</name>
+      <text>HEALTH STATUS</text>
+      <x>10</x>
+      <y>80</y>
+      <width>150</width>
+      <height>30</height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_4</name>
+      <text>WATER COOLING</text>
+      <x>10</x>
+      <y>110</y>
+      <width>150</width>
+      <height>30</height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_5</name>
+      <text>TEMPERATURE</text>
+      <x>10</x>
+      <y>140</y>
+      <width>150</width>
+      <height>30</height>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)</name>
+      <pv_name>$(P_MC)MovePermit-RB</pv_name>
+      <x>190</x>
+      <y>50</y>
+      <states>
+        <state>
+          <value>0</value>
+          <label>State 1</label>
+          <color>
+            <color name="Off" red="90" green="110" blue="90">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label>State 2</label>
+          <color>
+            <color name="On" red="70" green="255" blue="70">
+            </color>
+          </color>
+        </state>
+      </states>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_1</name>
+      <pv_name>$(P_MC)HealthStatus-RB</pv_name>
+      <x>190</x>
+      <y>80</y>
+      <states>
+        <state>
+          <value>0</value>
+          <label>State 1</label>
+          <color>
+            <color name="Off" red="90" green="110" blue="90">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label>State 2</label>
+          <color>
+            <color name="On" red="70" green="255" blue="70">
+            </color>
+          </color>
+        </state>
+      </states>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_2</name>
+      <pv_name>$(P_MC)WaterFlowStatus-RB</pv_name>
+      <x>190</x>
+      <y>110</y>
+      <states>
+        <state>
+          <value>0</value>
+          <label>State 1</label>
+          <color>
+            <color name="Off" red="90" green="110" blue="90">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label>State 2</label>
+          <color>
+            <color name="On" red="70" green="255" blue="70">
+            </color>
+          </color>
+        </state>
+      </states>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_3</name>
+      <pv_name>$(P_MC)TemperatureStatus-RB</pv_name>
+      <x>190</x>
+      <y>140</y>
+      <states>
+        <state>
+          <value>0</value>
+          <label>State 1</label>
+          <color>
+            <color name="Off" red="90" green="110" blue="90">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label>State 2</label>
+          <color>
+            <color name="On" red="70" green="255" blue="70">
+            </color>
+          </color>
+        </state>
+      </states>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Label_1</name>
+      <actions>
+        <action type="open_display">
+          <file>fcioc.bob</file>
+          <target>replace</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text>$(SYSTEM)</text>
+      <width>230</width>
+      <height>40</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <tooltip></tooltip>
+    </widget>
+  </widget>
+</display>

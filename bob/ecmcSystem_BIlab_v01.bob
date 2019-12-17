@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <macros>
-    <P>IOC2:</P>
+    <P>IOC_TEST:</P>
   </macros>
   <background_color>
     <color red="240" green="240" blue="240">
@@ -143,7 +143,7 @@
             <name>Linking Container</name>
             <file>../bob/ecmcMCUGeneral_v01.bob</file>
             <macros>
-              <P>IOC2:</P>
+              <P>IOC_TEST:</P>
             </macros>
             <y>9</y>
             <width>550</width>
@@ -157,15 +157,15 @@
           </widget>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container_1</name>
-            <file>ecmcHardwareMCU1021_v01.bob</file>
+            <file>ecmcHardware_TS2_v01.bob</file>
             <macros>
               <MASTER_ID>0</MASTER_ID>
-              <P>IOC2:</P>
+              <P>IOC_TEST:</P>
             </macros>
             <x>18</x>
             <y>229</y>
-            <width>240</width>
-            <height>540</height>
+            <width>280</width>
+            <height>591</height>
             <actions>
             </actions>
             <border_color>
@@ -232,6 +232,7 @@
       <color red="240" green="240" blue="240">
       </color>
     </background_color>
+    <active_tab>2</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>

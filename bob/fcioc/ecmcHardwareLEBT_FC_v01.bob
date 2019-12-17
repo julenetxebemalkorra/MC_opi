@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>ecmcHardwareMCU1021</name>
+  <name>ecmcHardwareLEBT_Doppler</name>
   <width>230</width>
   <height>410</height>
   <actions>
@@ -8,7 +8,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>MGGrey03-background_2</name>
     <width>230</width>
-    <height>530</height>
+    <height>590</height>
     <line_width>2</line_width>
     <line_color>
       <color name="GROUP-BORDER" red="150" green="155" blue="151">
@@ -24,7 +24,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_18</name>
     <class>HEADER2</class>
-    <text>Hardware MCU1021</text>
+    <text>Hardware $(SYSTEM)</text>
     <width>230</width>
     <height>50</height>
     <font use_class="true">
@@ -46,15 +46,15 @@
     <y>170</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 2  EL5101</off_label>
-    <on_label>Slave 2  EL5101</on_label>
+    <off_label>Slave 2  EL2819</off_label>
+    <on_label>Slave 2  EL2819</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL5101_v01.bob</file>
+        <file>ecmcEL2819_v01.bob</file>
         <macros>
           <SLAVE_POS>2</SLAVE_POS>
-          <TYPE>EL5101</TYPE>
+          <TYPE>EL2819</TYPE>
         </macros>
         <target>tab</target>
       </action>
@@ -67,17 +67,17 @@
     <y>50</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 0  EL1018</off_label>
+    <off_label>Slave 0  EK1100</off_label>
     <off_image>OffButton.png</off_image>
-    <on_label>Slave 0  EL1018</on_label>
+    <on_label>Slave 0  EK1100</on_label>
     <on_image>OffButton.png</on_image>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL1018_v01.bob</file>
+        <file>ecmcEK1100_v01.bob</file>
         <macros>
           <SLAVE_POS>0</SLAVE_POS>
-          <TYPE>EL1018</TYPE>
+          <TYPE>EK1100</TYPE>
         </macros>
         <target>tab</target>
       </action>
@@ -90,15 +90,15 @@
     <y>110</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 1  EL2808</off_label>
-    <on_label>Slave 1  EL2808</on_label>
+    <off_label>Slave 1  EL1808</off_label>
+    <on_label>Slave 1  EL1808</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL2808.opi</file>
+        <file>ecmcEL1018_v01.bob</file>
         <macros>
-          <SLAVE_POS>16</SLAVE_POS>
-          <TYPE>EL2808</TYPE>
+          <SLAVE_POS>1</SLAVE_POS>
+          <TYPE>EL1808</TYPE>
         </macros>
         <target>tab</target>
       </action>
@@ -108,18 +108,18 @@
     <name>Image Boolean Button_16</name>
     <bit>-1</bit>
     <x>20</x>
-    <y>350</y>
+    <y>290</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 5 1252</off_label>
-    <on_label>Slave 5 EL1252</on_label>
+    <off_label>Slave 4 EL3602</off_label>
+    <on_label>Slave 4 EL3602</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL1252.opi</file>
+        <file>ecmcEL32X2_v01.bob</file>
         <macros>
-          <SLAVE_POS>5</SLAVE_POS>
-          <TYPE>EL1252</TYPE>
+          <SLAVE_POS>4</SLAVE_POS>
+          <TYPE>EL3602</TYPE>
         </macros>
         <target>tab</target>
       </action>
@@ -129,18 +129,18 @@
     <name>Image Boolean Button_17</name>
     <bit>-1</bit>
     <x>20</x>
-    <y>410</y>
+    <y>350</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 6 EL7037</off_label>
-    <on_label>Slave 6 EL7037</on_label>
+    <off_label>Slave 5 EL4134</off_label>
+    <on_label>Slave 5 EL4134</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL7037_v01.bob</file>
+        <file>ecmcEL4XX4.opi</file>
         <macros>
-          <SLAVE_POS>6</SLAVE_POS>
-          <TYPE>EL7037</TYPE>
+          <SLAVE_POS>5</SLAVE_POS>
+          <TYPE>EL4134</TYPE>
         </macros>
         <target>tab</target>
       </action>
@@ -150,18 +150,18 @@
     <name>Image Boolean Button_18</name>
     <bit>-1</bit>
     <x>20</x>
-    <y>230</y>
+    <y>231</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 3  EL5101</off_label>
-    <on_label>Slave 3  EL5101</on_label>
+    <off_label>Slave 3  EL3214</off_label>
+    <on_label>Slave 3  EL3214</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL5101_v01.bob</file>
+        <file>ecmcEL32X4.opi</file>
         <macros>
           <SLAVE_POS>3</SLAVE_POS>
-          <TYPE>EL5101</TYPE>
+          <TYPE>EL3214</TYPE>
         </macros>
         <target>tab</target>
       </action>
@@ -171,17 +171,17 @@
     <name>Image Boolean Button_19</name>
     <bit>-1</bit>
     <x>20</x>
-    <y>290</y>
+    <y>410</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 4 EL9505</off_label>
-    <on_label>Slave 4 EL9505</on_label>
+    <off_label>Slave 6 EL9505</off_label>
+    <on_label>Slave 6 EL9505</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
         <file>ecmcEL9505.opi</file>
         <macros>
-          <SLAVE_POS>4</SLAVE_POS>
+          <SLAVE_POS>6</SLAVE_POS>
           <TYPE>EL9505</TYPE>
         </macros>
         <target>tab</target>
@@ -195,15 +195,36 @@
     <y>470</y>
     <width>190</width>
     <height>40</height>
-    <off_label>Slave 7 EL7037</off_label>
-    <on_label>Slave 7 EL7037</on_label>
+    <off_label>Slave 7 EL2124</off_label>
+    <on_label>Slave 7 EL2124</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>ecmcEL7037_v01.bob</file>
+        <file>ecmcEL2819_v01.bob</file>
         <macros>
           <SLAVE_POS>7</SLAVE_POS>
-          <TYPE>EL7037</TYPE>
+          <TYPE>EL2124</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_21</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>530</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 8 EK1110</off_label>
+    <on_label>Slave 8 EK1110</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEK1100_v01.bob</file>
+        <macros>
+          <SLAVE_POS>8</SLAVE_POS>
+          <TYPE>EK1110</TYPE>
         </macros>
         <target>tab</target>
       </action>

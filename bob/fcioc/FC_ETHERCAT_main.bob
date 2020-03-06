@@ -29,10 +29,10 @@
     <name>Embedded Display_2</name>
     <file>ECAT_Status.bob</file>
     <macros>
-      <P>LEBT-010:PBI-FC-001:</P>
-      <P_HV>LEBT-HV:</P_HV>
-      <P_MC>LEBT-MCU:</P_MC>
-      <SYSTEM>LEBT_FC</SYSTEM>
+      <P>NCL:PBI-FC-001:</P>
+      <P_HV>LEBT-010:PBI-FC-001:</P_HV>
+      <P_MC>LEBT-010:PBI-FC-001:</P_MC>
+      <SYSTEM>LEBT-010:PBI-FC-001:</SYSTEM>
     </macros>
     <y>60</y>
     <width>230</width>
@@ -42,9 +42,9 @@
     <name>Embedded Display_3</name>
     <file>ECAT_Status.bob</file>
     <macros>
-      <P_HV>DTL-HV2:</P_HV>
-      <P_MC>DTL-MCU2:</P_MC>
-      <SYSTEM>DTL_FC2</SYSTEM>
+      <P_HV>DTL-040:PBI-FC-001:</P_HV>
+      <P_MC>DTL-040:PBI-FC-001:</P_MC>
+      <SYSTEM>DTL-040:PBI-FC-001:</SYSTEM>
     </macros>
     <x>290</x>
     <y>270</y>
@@ -55,9 +55,9 @@
     <name>Embedded Display_4</name>
     <file>ECAT_Status.bob</file>
     <macros>
-      <P_HV>DTL-HV:</P_HV>
-      <P_MC>DTL-MCU1:</P_MC>
-      <SYSTEM>DTL_FC1</SYSTEM>
+      <P_HV>DTL-020:PBI-FC-001:</P_HV>
+      <P_MC>DTL-020:PBI-FC-001:</P_MC>
+      <SYSTEM>DTL-020:PBI-FC-001:</SYSTEM>
     </macros>
     <y>270</y>
     <width>230</width>
@@ -67,10 +67,10 @@
     <name>Embedded Display_5</name>
     <file>ECAT_Status.bob</file>
     <macros>
-      <P>MEBT-010:PBI-FC-001:</P>
-      <P_HV>MEBT-HV:</P_HV>
-      <P_MC>MEBT-MCU:</P_MC>
-      <SYSTEM>MEBT_FC</SYSTEM>
+      <P>NCL:PBI-FC-001:</P>
+      <P_HV>MEBT-010:PBI-FC-001:</P_HV>
+      <P_MC>MEBT-010:PBI-FC-001:</P_MC>
+      <SYSTEM>MEBT-010:PBI-FC-001:</SYSTEM>
     </macros>
     <x>290</x>
     <y>60</y>

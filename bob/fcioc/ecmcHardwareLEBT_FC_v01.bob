@@ -112,7 +112,7 @@
     <width>190</width>
     <height>40</height>
     <off_label>Slave 4 EL3602</off_label>
-    <on_label>Slave 4 EL3602</on_label>
+    <on_label>Slave 4 EL3174</on_label>
     <show_led>false</show_led>
     <actions>
       <action type="open_display">

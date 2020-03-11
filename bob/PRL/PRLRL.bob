@@ -42,17 +42,6 @@
       </color>
     </fallback_color>
   </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL001b</name>
-    <x>5</x>
-    <y>70</y>
-    <width>30</width>
-    <on_color>
-      <color name="OK" red="61" green="216" blue="61">
-      </color>
-    </on_color>
-    <square>true</square>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label_130</name>
     <text>XXX</text>
@@ -66,12 +55,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>OpenFaceplate</name>
-    <actions>
-      <action type="execute">
-        <script file="EmbeddedJs">
-          <text><![CDATA[/* Embedded javascript */
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <width>38</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>OpenFaceplate</name>
+      <actions>
+        <action type="execute">
+          <script file="EmbeddedJs">
+            <text><![CDATA[/* Embedded javascript */
 /* Author: Miklos Boros*/
 /* Function: check if locking is allowed is yes then generate the LockID, after that it opens the Faceplate*/
 
@@ -176,14 +171,15 @@ PVFactory.releasePV(P_BlockIcon_LockID);
 PVFactory.releasePV(DevLocked);
 PVFactory.releasePV(Inhibit_Lock);
 ]]></text>
-        </script>
-        <description>Open Faceplate</description>
-      </action>
-    </actions>
-    <text></text>
-    <width>38</width>
-    <height>97</height>
-    <transparent>true</transparent>
-    <tooltip>Open faceplate</tooltip>
+          </script>
+          <description>Open Faceplate</description>
+        </action>
+      </actions>
+      <text></text>
+      <width>38</width>
+      <height>70</height>
+      <transparent>true</transparent>
+      <tooltip>Open faceplate</tooltip>
+    </widget>
   </widget>
 </display>

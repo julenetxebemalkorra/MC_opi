@@ -79,8 +79,8 @@
     <name>001</name>
     <x>75</x>
     <y>140</y>
-    <width>360</width>
-    <height>230</height>
+    <width>320</width>
+    <height>200</height>
     <line_width>0</line_width>
     <background_color>
       <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
@@ -91,7 +91,7 @@
     <name>Rectangle_38</name>
     <x>80</x>
     <y>90</y>
-    <width>180</width>
+    <width>215</width>
     <height>40</height>
     <line_width>4</line_width>
     <line_color>
@@ -110,7 +110,7 @@
     <text>MEBT</text>
     <x>80</x>
     <y>90</y>
-    <width>180</width>
+    <width>215</width>
     <height>40</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="20.0">
@@ -121,9 +121,9 @@
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle_39</name>
-    <x>280</x>
+    <x>300</x>
     <y>90</y>
-    <width>440</width>
+    <width>476</width>
     <height>40</height>
     <line_width>4</line_width>
     <line_color>
@@ -140,9 +140,9 @@
   <widget type="label" version="2.0.0">
     <name>Label_124</name>
     <text>DLT</text>
-    <x>280</x>
+    <x>300</x>
     <y>90</y>
-    <width>440</width>
+    <width>476</width>
     <height>40</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="20.0">
@@ -153,9 +153,9 @@
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle_40</name>
-    <x>740</x>
+    <x>816</x>
     <y>90</y>
-    <width>739</width>
+    <width>663</width>
     <height>40</height>
     <line_width>4</line_width>
     <line_color>
@@ -172,9 +172,9 @@
   <widget type="label" version="2.0.0">
     <name>Label_125</name>
     <text>Spokes</text>
-    <x>740</x>
+    <x>816</x>
     <y>90</y>
-    <width>739</width>
+    <width>663</width>
     <height>40</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="20.0">
@@ -214,82 +214,6 @@
     </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline_5</name>
-    <x>258</x>
-    <y>109</y>
-    <width>11</width>
-    <height>1</height>
-    <line_width>4</line_width>
-    <line_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </line_color>
-    <points>
-      <point x="0.0" y="0.0">
-      </point>
-      <point x="11.0" y="0.0">
-      </point>
-    </points>
-  </widget>
-  <widget type="polygon" version="2.0.0">
-    <name>Polygon_5</name>
-    <x>268</x>
-    <y>99</y>
-    <width>11</width>
-    <height>22</height>
-    <line_width>0</line_width>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
-    <points>
-      <point x="10.0" y="10.0">
-      </point>
-      <point x="0.0" y="20.0">
-      </point>
-      <point x="0.0" y="0.0">
-      </point>
-    </points>
-  </widget>
-  <widget type="polyline" version="2.0.0">
-    <name>Polyline_7</name>
-    <x>718</x>
-    <y>109</y>
-    <width>11</width>
-    <height>1</height>
-    <line_width>4</line_width>
-    <line_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </line_color>
-    <points>
-      <point x="0.0" y="0.0">
-      </point>
-      <point x="11.0" y="0.0">
-      </point>
-    </points>
-  </widget>
-  <widget type="polygon" version="2.0.0">
-    <name>Polygon_7</name>
-    <x>728</x>
-    <y>99</y>
-    <width>11</width>
-    <height>22</height>
-    <line_width>0</line_width>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
-    <points>
-      <point x="10.0" y="10.0">
-      </point>
-      <point x="0.0" y="20.0">
-      </point>
-      <point x="0.0" y="0.0">
-      </point>
-    </points>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline_8</name>
@@ -339,7 +263,8 @@
   <widget type="label" version="2.0.0">
     <name>Label_131</name>
     <text>PRLRL</text>
-    <y>210</y>
+    <x>2</x>
+    <y>176</y>
     <width>75</width>
     <height>50</height>
     <font>
@@ -352,551 +277,11 @@
   <widget type="label" version="2.0.0">
     <name>Label_132</name>
     <text>PRLTap</text>
-    <y>310</y>
+    <y>262</y>
     <width>75</width>
     <height>50</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="18.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap001a</name>
-    <x>110</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap001b</name>
-    <x>110</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_144</name>
-    <text>01</text>
-    <x>110</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_002</name>
-    <text>002</text>
-    <x>140</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL002a</name>
-    <x>140</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL002b</name>
-    <x>140</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_146</name>
-    <text>02</text>
-    <x>170</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap002a</name>
-    <x>170</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap002b</name>
-    <x>170</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL003a</name>
-    <x>200</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL003b</name>
-    <x>200</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_147</name>
-    <text>003</text>
-    <x>200</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL004a</name>
-    <x>240</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL004b</name>
-    <x>240</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_148</name>
-    <text>004</text>
-    <x>240</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap003a</name>
-    <x>270</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap003b</name>
-    <x>270</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_149</name>
-    <text>03</text>
-    <x>270</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL005a</name>
-    <x>300</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL005b</name>
-    <x>300</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_150</name>
-    <text>005</text>
-    <x>300</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL006a</name>
-    <x>340</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL006b</name>
-    <x>340</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_151</name>
-    <text>006</text>
-    <x>340</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap004a</name>
-    <x>370</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap004b</name>
-    <x>370</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_152</name>
-    <text>04</text>
-    <x>370</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -964,687 +349,27 @@
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>002</name>
-    <x>435</x>
+    <x>395</x>
     <y>140</y>
-    <width>296</width>
-    <height>230</height>
+    <width>401</width>
+    <height>200</height>
     <line_width>0</line_width>
     <background_color>
       <color name="Background" red="220" green="225" blue="221">
       </color>
     </background_color>
   </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL008a</name>
-    <x>440</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL008b</name>
-    <x>440</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_154</name>
-    <text>008</text>
-    <x>440</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap005a</name>
-    <x>470</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap005b</name>
-    <x>470</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_155</name>
-    <text>05</text>
-    <x>470</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL009a</name>
-    <x>500</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL009b</name>
-    <x>500</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_156</name>
-    <text>009</text>
-    <x>500</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL010a</name>
-    <x>540</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL010b</name>
-    <x>540</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_157</name>
-    <text>010</text>
-    <x>540</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap006a</name>
-    <x>570</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap006b</name>
-    <x>570</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_158</name>
-    <text>06</text>
-    <x>570</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL011a</name>
-    <x>600</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL011b</name>
-    <x>600</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_159</name>
-    <text>011</text>
-    <x>600</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL012a</name>
-    <x>640</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL012b</name>
-    <x>640</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_160</name>
-    <text>012</text>
-    <x>640</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap007a</name>
-    <x>670</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap007b</name>
-    <x>670</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_161</name>
-    <text>07</text>
-    <x>670</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL013a</name>
-    <x>701</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL013b</name>
-    <x>701</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_162</name>
-    <text>013</text>
-    <x>701</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
   <widget type="rectangle" version="2.0.0">
     <name>003</name>
-    <x>731</x>
+    <x>796</x>
     <y>140</y>
-    <width>226</width>
+    <width>161</width>
     <height>230</height>
     <line_width>0</line_width>
     <background_color>
       <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL014a</name>
-    <x>761</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL014b</name>
-    <x>761</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_163</name>
-    <text>014</text>
-    <x>761</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap008a</name>
-    <x>731</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap008b</name>
-    <x>731</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_164</name>
-    <text>08</text>
-    <x>731</x>
-    <y>270</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>PRLRL015a</name>
@@ -1697,66 +422,6 @@
     <text>015</text>
     <x>821</x>
     <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLTap009a</name>
-    <x>791</x>
-    <y>310</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLTap009b</name>
-    <x>791</x>
-    <y>340</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_166</name>
-    <text>09</text>
-    <x>791</x>
-    <y>270</y>
     <width>30</width>
     <height>40</height>
     <font>
@@ -12247,7 +10912,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_127</name>
-    <text>01</text>
+    <text>001 DTL-022Row</text>
     <x>80</x>
     <y>140</y>
     <width>355</width>
@@ -12261,7 +10926,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_128</name>
-    <text>02</text>
+    <text>002 DTL -30Row</text>
     <x>435</x>
     <y>140</y>
     <width>295</width>
@@ -13936,188 +12601,6 @@
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>WID_OpenFaceplate</name>
-    <actions>
-      <action type="execute">
-        <script file="EmbeddedJs">
-          <text><![CDATA[/* Embedded javascript */
-/* Author: Miklos Boros*/
-/* Function: check if locking is allowed is yes then generate the LockID, after that it opens the Faceplate*/
-
-
-PVUtil = org.csstudio.display.builder.runtime.script.PVUtil;
-logger = org.csstudio.display.builder.runtime.script.ScriptUtil.getLogger();
-PVFactory = org.csstudio.display.builder.runtime.pv.PVFactory;
-
-
-macros = widget.getEffectiveMacros();
-WIDIndex = macros.getValue("WIDIndex");
-WIDSecSub = macros.getValue("WIDSecSub");
-WIDDis = macros.getValue("WIDDis");
-WIDDev = macros.getValue("WIDDev");
-
-
-
-try
-{
-P_BlockIcon_LockID = PVUtil.createPV( WIDSecSub+":"+WIDDis+"-"+WIDDev+"-"+WIDIndex+":P_BlockIcon_LockID",3000);
-DevLocked          = PVUtil.createPV( WIDSecSub+":"+WIDDis+"-"+WIDDev+"-"+WIDIndex+":DevLocked",3000);
-Inhibit_Lock       = PVUtil.createPV( WIDSecSub+":"+WIDDis+"-"+WIDDev+"-"+WIDIndex+":Inhibit_Lock",3000);
-}
-catch (e) {   logger.info(" Cant open Faceplate, IOC is disconnected"); }
-
-
-
-
- var patience = 500;
- while (true)
- {
-    try
-    {
-	if (PVUtil.getLong(Inhibit_Lock)!=null)
-	{break;}
-	
-    }
-    catch (e) {}
-    patience -=1;
-    if (patience <= 0)
-	{
- 		throw "Timeout connecting to PV";
-	}	
-  }
-
-
-
-  if (PVUtil.getLong(Inhibit_Lock)==0) {      /*Inibit_Lock, check if the locking is not inhibited*/
-     if (PVUtil.getLong(DevLocked)==1) {      /*DevLocked, check if the faceplate is locked*/
- 
-
-	/*Generate Unique ID for the machine*/
-       	var UniqueText = "";
-       	var en = java.net.NetworkInterface.getNetworkInterfaces();
-       	var inf;
-  	var enumIpAddr;
-        var Data1 = "";
-	var Data2 = "";
-    	for (en = java.net.NetworkInterface.getNetworkInterfaces(); en.hasMoreElements();) {
-      	   intf = en.nextElement();
-	   Data1 = intf.getName() + intf.getDisplayName();
-           UniqueText = UniqueText + Data1;
-          for (enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements(); ) {
-	        Data2 = enumIpAddr.nextElement().toString();
-        	UniqueText = UniqueText + Data2;
-      	   }
-        }
-
-        var a_table = "00000000 77073096 EE0E612C 990951BA 076DC419 706AF48F E963A535 9E6495A3 0EDB8832 79DCB8A4 E0D5E91E 97D2D988 09B64C2B 7EB17CBD E7B82D07 90BF1D91 1DB71064 6AB020F2 F3B97148 84BE41DE 1ADAD47D 6DDDE4EB F4D4B551 83D385C7 136C9856 646BA8C0 FD62F97A 8A65C9EC 14015C4F 63066CD9 FA0F3D63 8D080DF5 3B6E20C8 4C69105E D56041E4 A2677172 3C03E4D1 4B04D447 D20D85FD A50AB56B 35B5A8FA 42B2986C DBBBC9D6 ACBCF940 32D86CE3 45DF5C75 DCD60DCF ABD13D59 26D930AC 51DE003A C8D75180 BFD06116 21B4F4B5 56B3C423 CFBA9599 B8BDA50F 2802B89E 5F058808 C60CD9B2 B10BE924 2F6F7C87 58684C11 C1611DAB B6662D3D 76DC4190 01DB7106 98D220BC EFD5102A 71B18589 06B6B51F 9FBFE4A5 E8B8D433 7807C9A2 0F00F934 9609A88E E10E9818 7F6A0DBB 086D3D2D 91646C97 E6635C01 6B6B51F4 1C6C6162 856530D8 F262004E 6C0695ED 1B01A57B 8208F4C1 F50FC457 65B0D9C6 12B7E950 8BBEB8EA FCB9887C 62DD1DDF 15DA2D49 8CD37CF3 FBD44C65 4DB26158 3AB551CE A3BC0074 D4BB30E2 4ADFA541 3DD895D7 A4D1C46D D3D6F4FB 4369E96A 346ED9FC AD678846 DA60B8D0 44042D73 33031DE5 AA0A4C5F DD0D7CC9 5005713C 270241AA BE0B1010 C90C2086 5768B525 206F85B3 B966D409 CE61E49F 5EDEF90E 29D9C998 B0D09822 C7D7A8B4 59B33D17 2EB40D81 B7BD5C3B C0BA6CAD EDB88320 9ABFB3B6 03B6E20C 74B1D29A EAD54739 9DD277AF 04DB2615 73DC1683 E3630B12 94643B84 0D6D6A3E 7A6A5AA8 E40ECF0B 9309FF9D 0A00AE27 7D079EB1 F00F9344 8708A3D2 1E01F268 6906C2FE F762575D 806567CB 196C3671 6E6B06E7 FED41B76 89D32BE0 10DA7A5A 67DD4ACC F9B9DF6F 8EBEEFF9 17B7BE43 60B08ED5 D6D6A3E8 A1D1937E 38D8C2C4 4FDFF252 D1BB67F1 A6BC5767 3FB506DD 48B2364B D80D2BDA AF0A1B4C 36034AF6 41047A60 DF60EFC3 A867DF55 316E8EEF 4669BE79 CB61B38C BC66831A 256FD2A0 5268E236 CC0C7795 BB0B4703 220216B9 5505262F C5BA3BBE B2BD0B28 2BB45A92 5CB36A04 C2D7FFA7 B5D0CF31 2CD99E8B 5BDEAE1D 9B64C2B0 EC63F226 756AA39C 026D930A 9C0906A9 EB0E363F 72076785 05005713 95BF4A82 E2B87A14 7BB12BAE 0CB61B38 92D28E9B E5D5BE0D 7CDCEFB7 0BDBDF21 86D3D2D4 F1D4E242 68DDB3F8 1FDA836E 81BE16CD F6B9265B 6FB077E1 18B74777 88085AE6 FF0F6A70 66063BCA 11010B5C 8F659EFF F862AE69 616BFFD3 166CCF45 A00AE278 D70DD2EE 4E048354 3903B3C2 A7672661 D06016F7 4969474D 3E6E77DB AED16A4A D9D65ADC 40DF0B66 37D83BF0 A9BCAE53 DEBB9EC5 47B2CF7F 30B5FFE9 BDBDF21C CABAC28A 53B39330 24B4A3A6 BAD03605 CDD70693 54DE5729 23D967BF B3667A2E C4614AB8 5D681B02 2A6F2B94 B40BBE37 C30C8EA1 5A05DF1B 2D02EF8D";
-        var b_table = a_table.split(' ').map(function(s){ return parseInt(s,16) });
-  
-        function b_crc32 (str) {
-        var crc = -1;
-          for(var i=0, iTop=str.length; i<iTop; i++) {
-             crc = ( crc >>> 8 ) ^ b_table[( crc ^ str.charCodeAt( i ) ) & 0xFF];
-          }
-        return (crc ^ (-1)) >>> 0;
-        };
-
-        var crc = b_crc32(UniqueText) ;
-	if (crc >=2147483647){ crc = crc - 2147483647;}
-        logger.info("   BlockIcon machine ID: "+crc);
-	/*Write Block Icon ID to the PV*/
-        P_BlockIcon_LockID.setValue(crc);
-
-    } //Check if device is Locked
-
-  } // Locking inhibited
-
-  /* OPEN FACEPLATE*/
-  var map = new Object(); 
-  map["Dev"] = WIDDev;
-  map["Dis"] = WIDDis;
-  map["Index"] = WIDIndex;
-  map["SecSub"] = WIDSecSub;
-  org.csstudio.display.builder.runtime.script.ScriptUtil.openDisplay(widget, "CV_ControlVALVE_Faceplate.bob", "STANDALONE", map);
-
-
-
-
-PVFactory.releasePV(P_BlockIcon_LockID);
-PVFactory.releasePV(DevLocked);
-PVFactory.releasePV(Inhibit_Lock);
-]]></text>
-        </script>
-        <description>Open Faceplate</description>
-      </action>
-    </actions>
-    <text></text>
-    <x>30</x>
-    <y>180</y>
-    <width>40</width>
-    <height>90</height>
-    <transparent>true</transparent>
-    <tooltip>Open faceplate</tooltip>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_3</name>
-    <text>001</text>
-    <x>90</x>
-    <y>170</y>
-    <width>30</width>
-    <height>40</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
-  <widget type="multi_state_led" version="2.0.0">
-    <name>PRLRL001a</name>
-    <x>90</x>
-    <y>210</y>
-    <width>30</width>
-    <square>true</square>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <states>
-      <state>
-        <value>0</value>
-        <label></label>
-        <color>
-          <color name="OK" red="61" green="216" blue="61">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>1</value>
-        <label></label>
-        <color>
-          <color name="MINOR" red="252" green="242" blue="17">
-          </color>
-        </color>
-      </state>
-      <state>
-        <value>2</value>
-        <label></label>
-        <color>
-          <color name="INVALID" red="149" green="110" blue="221">
-          </color>
-        </color>
-      </state>
-    </states>
-    <fallback_label>Off</fallback_label>
-    <fallback_color>
-      <color name="Off" red="90" green="110" blue="90">
-      </color>
-    </fallback_color>
-  </widget>
-  <widget type="led" version="2.0.0">
-    <name>PRLRL001b</name>
-    <x>90</x>
-    <y>240</y>
-    <width>30</width>
-    <square>true</square>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label_377</name>
     <text>15</text>
@@ -14161,60 +12644,6 @@ PVFactory.releasePV(Inhibit_Lock);
     <vertical_alignment>1</vertical_alignment>
   </widget>
   <widget type="embedded" version="2.0.0">
-    <name>PRLRL_1</name>
-    <file>PRLRL.bob</file>
-    <x>85</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_2</name>
-    <file>PRLRL.bob</file>
-    <x>135</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_3</name>
-    <file>PRLRL.bob</file>
-    <x>195</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_4</name>
-    <file>PRLRL.bob</file>
-    <x>235</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_5</name>
-    <file>PRLRL.bob</file>
-    <x>295</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_6</name>
-    <file>PRLRL.bob</file>
-    <x>335</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
     <name>PRLRL_7</name>
     <file>PRLRL.bob</file>
     <x>395</x>
@@ -14224,63 +12653,9 @@ PVFactory.releasePV(Inhibit_Lock);
     <transparent>true</transparent>
   </widget>
   <widget type="embedded" version="2.0.0">
-    <name>PRLRL_8</name>
-    <file>PRLRL.bob</file>
-    <x>435</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_9</name>
-    <file>PRLRL.bob</file>
-    <x>495</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_10</name>
-    <file>PRLRL.bob</file>
-    <x>535</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_11</name>
-    <file>PRLRL.bob</file>
-    <x>595</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_12</name>
-    <file>PRLRL.bob</file>
-    <x>635</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>PRLRL_13</name>
-    <file>PRLRL.bob</file>
-    <x>696</x>
-    <y>170</y>
-    <width>40</width>
-    <height>100</height>
-    <transparent>true</transparent>
-  </widget>
-  <widget type="embedded" version="2.0.0">
     <name>PRLRL_14</name>
     <file>PRLRL.bob</file>
-    <x>756</x>
+    <x>739</x>
     <y>170</y>
     <width>40</width>
     <height>100</height>
@@ -14479,6 +12854,184 @@ PVFactory.releasePV(Inhibit_Lock);
     <name>PRLRL_36</name>
     <file>PRLRL.bob</file>
     <x>1855</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_37</name>
+    <file>PRLRL.bob</file>
+    <x>220</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_38</name>
+    <file>PRLRL.bob</file>
+    <x>320</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_39</name>
+    <file>PRLRL.bob</file>
+    <x>120</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+    <actions>
+      <action type="open_display">
+        <file>ecmcSystemLEBT_PRL_v01.bob</file>
+        <target>replace</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_40</name>
+    <file>PRLRL.bob</file>
+    <x>420</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_41</name>
+    <file>PRLRL.bob</file>
+    <x>510</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_42</name>
+    <file>PRLRL.bob</file>
+    <x>610</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_43</name>
+    <file>PRLRL.bob</file>
+    <x>710</x>
+    <y>240</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_44</name>
+    <file>PRLRL.bob</file>
+    <x>445</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_45</name>
+    <file>PRLRL.bob</file>
+    <x>686</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_46</name>
+    <file>PRLRL.bob</file>
+    <x>631</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_47</name>
+    <file>PRLRL.bob</file>
+    <x>85</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_48</name>
+    <file>PRLRL.bob</file>
+    <x>532</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_49</name>
+    <file>PRLRL.bob</file>
+    <x>581</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_50</name>
+    <file>PRLRL.bob</file>
+    <x>488</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_51</name>
+    <file>PRLRL.bob</file>
+    <x>140</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_52</name>
+    <file>PRLRL.bob</file>
+    <x>195</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_53</name>
+    <file>PRLRL.bob</file>
+    <x>240</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_54</name>
+    <file>PRLRL.bob</file>
+    <x>350</x>
+    <y>170</y>
+    <width>40</width>
+    <height>100</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PRLRL_55</name>
+    <file>PRLRL.bob</file>
+    <x>300</x>
     <y>170</y>
     <width>40</width>
     <height>100</height>

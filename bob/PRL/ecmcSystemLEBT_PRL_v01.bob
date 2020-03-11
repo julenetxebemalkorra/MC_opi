@@ -22,7 +22,7 @@
               <P>PRL-TCB:</P>
             </macros>
             <x>8</x>
-            <y>229</y>
+            <y>179</y>
             <width>516</width>
             <height>570</height>
             <actions>
@@ -34,8 +34,8 @@
           </widget>
           <widget type="group" version="2.0.0">
             <name>Diagnostics</name>
-            <x>538</x>
-            <y>221</y>
+            <x>528</x>
+            <y>179</y>
             <width>241</width>
             <height>487</height>
             <font>
@@ -158,13 +158,13 @@
           </widget>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container</name>
-            <file>../bob/ecmcMCUGeneral_v01.bob</file>
+            <file>../ecmcMCUGeneral_v01.bob</file>
             <macros>
               <P>PRL-TCB:001-</P>
             </macros>
             <y>9</y>
-            <width>550</width>
-            <height>210</height>
+            <width>488</width>
+            <height>160</height>
             <actions>
             </actions>
             <border_color>
@@ -179,7 +179,7 @@
         <children>
           <widget type="embedded" version="2.0.0">
             <name>ecmcEL32X2</name>
-            <file>ecmcEL32X2_v01.bob</file>
+            <file>../ecmcEL32X2_v01.bob</file>
             <x>28</x>
             <y>29</y>
             <width>600</width>
@@ -196,6 +196,7 @@
       <color red="240" green="240" blue="240">
       </color>
     </background_color>
+    <active_tab>1</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>

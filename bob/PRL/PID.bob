@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>PID loop </text>
+    <x use_class="true">20</x>
+    <y use_class="true">0</y>
+    <width>550</width>
+    <height use_class="true">50</height>
+    <font use_class="true">
+      <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="HEADER-TEXT" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment use_class="true">0</horizontal_alignment>
+    <vertical_alignment use_class="true">1</vertical_alignment>
+    <wrap_words use_class="true">false</wrap_words>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>PRL:AI-AVG1</pv_name>
+    <x>190</x>
+    <y>170</y>
+    <width>110</width>
+    <height>30</height>
+  </widget>
+  <widget type="thermometer" version="2.0.0">
+    <name>Thermometer</name>
+    <pv_name>PRL:AI-AVG1</pv_name>
+    <x>300</x>
+    <y>170</y>
+    <width>100</width>
+    <height>150</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Temperature AVG</text>
+    <x>30</x>
+    <y>170</y>
+    <width>110</width>
+    <height>70</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <pv_name>PRL:PID1.FBON</pv_name>
+    <text>PID On</text>
+    <x>220</x>
+    <y>10</y>
+    <width>130</width>
+    <height>50</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>Temperature 1</text>
+    <x>30</x>
+    <y>230</y>
+    <width>110</width>
+    <height>70</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Temperature 2</text>
+    <x>20</x>
+    <y>300</y>
+    <width>110</width>
+    <height>70</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>PRL:ec0-s10-EL3202-0010-AI2</pv_name>
+    <x>190</x>
+    <y>290</y>
+    <width>110</width>
+    <height>30</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>PRL:ec0-s10-EL3202-0010-AI1</pv_name>
+    <x>190</x>
+    <y>240</y>
+    <width>110</width>
+    <height>30</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>Set Point</text>
+    <x>30</x>
+    <y>70</y>
+    <width>110</width>
+    <height>70</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>PRL:PID1.VAL</pv_name>
+    <x>190</x>
+    <y>70</y>
+    <width>110</width>
+    <height>30</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>PRL:PID1.ERR</pv_name>
+    <x>590</x>
+    <y>70</y>
+    <width>110</width>
+    <height>30</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>ERROR</text>
+    <x>430</x>
+    <y>70</y>
+    <width>110</width>
+    <height>70</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>PRL:PID1.OVAL</pv_name>
+    <x>590</x>
+    <y>120</y>
+    <width>110</width>
+    <height>30</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>Output</text>
+    <x>430</x>
+    <y>120</y>
+    <width>110</width>
+    <height>70</height>
+  </widget>
+</display>

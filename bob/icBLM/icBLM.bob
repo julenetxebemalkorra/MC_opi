@@ -366,9 +366,19 @@
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display</name>
     <file>ecmcHardware_icBLM.bob</file>
+    <macros>
+      <MASTER_ID>0</MASTER_ID>
+    </macros>
     <x>570</x>
     <y>10</y>
     <width>240</width>
     <height>430</height>
+  </widget>
+  <widget type="gauge" version="2.0.0">
+    <name>Gauge</name>
+    <x>540</x>
+    <y>470</y>
+    <width>0</width>
+    <height>0</height>
   </widget>
 </display>

@@ -74,7 +74,7 @@
     <show_led>false</show_led>
     <actions>
       <action type="open_display">
-        <file>../../opi/ecmcEL3702.opi</file>
+        <file>../../../opi/ecmcEL3632.opi</file>
         <macros>
           <SLAVE_POS>1</SLAVE_POS>
           <TYPE>EL3714</TYPE>

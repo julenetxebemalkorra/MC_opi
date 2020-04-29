@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ecmcHardwareLEBT_Doppler</name>
+  <width>230</width>
+  <height>410</height>
+  <actions>
+  </actions>
+  <widget type="rectangle" version="2.0.0">
+    <name>MGGrey03-background_2</name>
+    <width>230</width>
+    <height>590</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="GROUP-BORDER" red="150" green="155" blue="151">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <class>HEADER2</class>
+    <text>Hardware</text>
+    <width>230</width>
+    <height>40</height>
+    <font use_class="true">
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+    <background_color use_class="true">
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_13</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>80</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 0  EK1100</off_label>
+    <off_image>OffButton.png</off_image>
+    <on_label>Slave 0  EK1100</on_label>
+    <on_image>OffButton.png</on_image>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEK1100_v01.bob</file>
+        <macros>
+          <SLAVE_POS>0</SLAVE_POS>
+          <TYPE>EK1100</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_16</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>130</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 1 EL3174</off_label>
+    <on_label>Slave 1 EL3174</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>../../../opi/ecmcEL3632.opi</file>
+        <macros>
+          <SLAVE_POS>1</SLAVE_POS>
+          <TYPE>EL3714</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_17</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>190</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 2 EL4134</off_label>
+    <on_label>Slave 2 EL4134</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL4XX4.opi</file>
+        <macros>
+          <SLAVE_POS>2</SLAVE_POS>
+          <TYPE>EL4134</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_19</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>250</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 3 EL9505</off_label>
+    <on_label>Slave 3 EL9505</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL9505.opi</file>
+        <macros>
+          <SLAVE_POS>3</SLAVE_POS>
+          <TYPE>EL9505</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_20</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>370</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 5 EL2124</off_label>
+    <on_label>Slave 5 EL2124</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>ecmcEL2819_v01.bob</file>
+        <macros>
+          <SLAVE_POS>5</SLAVE_POS>
+          <TYPE>EL2124</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Image Boolean Button_21</name>
+    <bit>-1</bit>
+    <x>20</x>
+    <y>310</y>
+    <width>190</width>
+    <height>40</height>
+    <off_label>Slave 4 EL1252</off_label>
+    <on_label>Slave 4 EL1252</on_label>
+    <show_led>false</show_led>
+    <actions>
+      <action type="open_display">
+        <file>../../opi/ecmcEL1252.opi</file>
+        <macros>
+          <SLAVE_POS>4</SLAVE_POS>
+          <TYPE>EL1252</TYPE>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <class>HEADER2</class>
+    <text>$(P)</text>
+    <y>40</y>
+    <width>230</width>
+    <height>40</height>
+    <font use_class="true">
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+    <background_color use_class="true">
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

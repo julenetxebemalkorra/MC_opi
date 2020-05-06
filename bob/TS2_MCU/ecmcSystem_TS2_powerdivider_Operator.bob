@@ -141,7 +141,7 @@
           </widget>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container</name>
-            <file>../bob/ecmcMCUGeneral_v01.bob</file>
+            <file>../ecmcMCUGeneral_v01.bob</file>
             <macros>
               <P>TS2:</P>
             </macros>
@@ -176,15 +176,15 @@
         </children>
       </tab>
       <tab>
-        <name>TUNER 1</name>
+        <name>Axis1</name>
         <children>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
+            <file>../ecmcOneAxisOperator.bob</file>
             <macros>
               <AxisId>1</AxisId>
-              <M>Cavity_Tuner1:Mtr3</M>
-              <R>Cavity_Tuner1:Mtr3-</R>
+              <M>RF-PwrDiv:Mtr1</M>
+              <R>RF-PwrDiv:Mtr1-</R>
             </macros>
             <x>18</x>
             <y>21</y>
@@ -200,66 +200,18 @@
         </children>
       </tab>
       <tab>
-        <name>TUNER 2</name>
+        <name>Axis2</name>
         <children>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container_2</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
+            <file>../ecmcOneAxisOperator.bob</file>
             <macros>
               <AxisId>2</AxisId>
-              <M>Cavity_Tuner2:Mtr4</M>
-              <R>Cavity_Tuner2:Mtr4-</R>
+              <M>RF-PwrDiv:Mtr2</M>
+              <R>RF-PwrDiv:Mtr1-</R>
             </macros>
             <x>18</x>
             <y>29</y>
-            <width>1370</width>
-            <height>580</height>
-            <actions>
-            </actions>
-            <border_color>
-              <color red="0" green="128" blue="255">
-              </color>
-            </border_color>
-          </widget>
-        </children>
-      </tab>
-      <tab>
-        <name>TUNER 3</name>
-        <children>
-          <widget type="embedded" version="2.0.0">
-            <name>Linking Container_3</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
-            <macros>
-              <AxisId>3</AxisId>
-              <M>Cavity_Tuner3:Mtr5</M>
-              <R>Cavity_Tuner3:Mtr5-</R>
-            </macros>
-            <x>8</x>
-            <y>6</y>
-            <width>1370</width>
-            <height>580</height>
-            <actions>
-            </actions>
-            <border_color>
-              <color red="0" green="128" blue="255">
-              </color>
-            </border_color>
-          </widget>
-        </children>
-      </tab>
-      <tab>
-        <name>TUNER 4</name>
-        <children>
-          <widget type="embedded" version="2.0.0">
-            <name>Linking Container_4</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
-            <macros>
-              <AxisId>4</AxisId>
-              <M>Cavity_Tuner4:Mtr6</M>
-              <R>Cavity_Tuner4:Mtr6-</R>
-            </macros>
-            <x>18</x>
-            <y>16</y>
             <width>1370</width>
             <height>580</height>
             <actions>
@@ -280,7 +232,6 @@
       <color red="240" green="240" blue="240">
       </color>
     </background_color>
-    <active_tab>2</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>

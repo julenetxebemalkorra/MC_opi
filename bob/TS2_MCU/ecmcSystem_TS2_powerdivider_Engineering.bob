@@ -141,7 +141,7 @@
           </widget>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container</name>
-            <file>../bob/ecmcMCUGeneral_v01.bob</file>
+            <file>../ecmcMCUGeneral_v01.bob</file>
             <macros>
               <P>TS2:</P>
             </macros>
@@ -180,7 +180,7 @@
         <children>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
+            <file>../ecmcOneAxisMR.bob</file>
             <macros>
               <AxisId>1</AxisId>
               <M>RF-PwrDiv:Mtr1</M>
@@ -204,7 +204,7 @@
         <children>
           <widget type="embedded" version="2.0.0">
             <name>Linking Container_2</name>
-            <file>../bob/ecmcOneAxisMR.bob</file>
+            <file>../ecmcOneAxisMR.bob</file>
             <macros>
               <AxisId>2</AxisId>
               <M>RF-PwrDiv:Mtr2</M>

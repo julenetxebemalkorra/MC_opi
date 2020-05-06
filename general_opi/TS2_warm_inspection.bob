@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <macros>
+    <P>TS2:</P>
+  </macros>
+  <width>774</width>
+  <height>430</height>
+  <background_color>
+    <color red="220" green="220" blue="220">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <file>../bob/ecmcOneAxis.bob</file>
+    <macros>
+      <M>RF-PwrDiv:Mtr1</M>
+      <R>RF-PwrDiv:Mtr1-</R>
+    </macros>
+    <x>10</x>
+    <y>200</y>
+    <width>640</width>
+    <height>520</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <file>../bob/ecmcMCUGeneral_v01.bob</file>
+    <x>10</x>
+    <y>20</y>
+    <width>620</width>
+    <height>150</height>
+  </widget>
+</display>
